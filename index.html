@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Project Millenia</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="app">
+    <section class="card intro">
+      <h1>Project Millenia</h1>
+    </section>
+
+    <section id="quiz" class="card quiz hidden">
+      <div class="topline">
+        <span id="progress">0 / 0</span>
+        <span id="score">Correct: 0 · Again: 0</span>
+      </div>
+
+      <div id="prompt" class="prompt">What happened in</div>
+      <div id="question" class="question">—</div>
+
+      <button id="revealBtn" class="primary">Reveal answer</button>
+
+      <div id="answerBox" class="answer hidden">
+        <div id="answerLabel" class="answerLabel">Answer</div>
+        <div id="answerMain" class="answerMain">—</div>
+        <div id="answerDescription" class="answerDescription"></div>
+      </div>
+
+      <div id="gradeBtns" class="grade hidden">
+        <button id="againBtn" class="again">Again</button>
+        <button id="correctBtn" class="correct">Correct</button>
+      </div>
+    </section>
+
+    <section class="card controls">
+      <label>
+        From year
+        <input id="fromYear" type="number" inputmode="numeric" />
+      </label>
+      <label>
+        To year
+        <input id="toYear" type="number" inputmode="numeric" />
+      </label>
+
+      <div class="modeToggle" aria-label="Quiz mode">
+        <button id="modeYearToEvent" class="modeBtn active" type="button">Year → Event</button>
+        <button id="modeEventToYear" class="modeBtn" type="button">Event → Year</button>
+      </div>
+
+      <button id="startBtn">Start quiz</button>
+      <button id="resetStatsBtn" class="secondary">Reset stats</button>
+    </section>
+  </main>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
