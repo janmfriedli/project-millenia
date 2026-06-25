@@ -1,9 +1,15 @@
+const home = document.getElementById("home");
+const chooseQuizYearBtn = document.getElementById("chooseQuizYear");
+const chooseQuizEventBtn = document.getElementById("chooseQuizEvent");
+const chooseSwipeBtn = document.getElementById("chooseSwipe");
+
 const fromYearInput = document.getElementById("fromYear");
 const toYearInput = document.getElementById("toYear");
-const modeYearToEventBtn = document.getElementById("modeYearToEvent");
-const modeEventToYearBtn = document.getElementById("modeEventToYear");
-const startBtn = document.getElementById("startBtn");
+const startQuizBtn = document.getElementById("startQuizBtn");
 const resetStatsBtn = document.getElementById("resetStatsBtn");
+const backFromQuizBtn = document.getElementById("backFromQuizBtn");
+const quizControls = document.getElementById("quizControls");
+
 const quiz = document.getElementById("quiz");
 const progress = document.getElementById("progress");
 const score = document.getElementById("score");
@@ -18,15 +24,31 @@ const gradeBtns = document.getElementById("gradeBtns");
 const againBtn = document.getElementById("againBtn");
 const correctBtn = document.getElementById("correctBtn");
 
+const swipeControls = document.getElementById("swipeControls");
+const startSwipeYearInput = document.getElementById("startSwipeYear");
+const startSwipeBtn = document.getElementById("startSwipeBtn");
+const backFromSwipeBtn = document.getElementById("backFromSwipeBtn");
+const swipeView = document.getElementById("swipeView");
+const swipePosition = document.getElementById("swipePosition");
+const swipeYearEl = document.getElementById("swipeYear");
+const swipeEventsEl = document.getElementById("swipeEvents");
+const prevYearBtn = document.getElementById("prevYearBtn");
+const nextYearBtn = document.getElementById("nextYearBtn");
+
 let deck = [];
 let currentIndex = 0;
 let correctCount = 0;
 let againCount = 0;
 let quizMode = "year-to-event";
+let currentSwipeYear = 0;
+let minDataYear = 0;
+let maxDataYear = 0;
+let touchStartX = null;
+let touchStartY = null;
 
-function keepQuizAtTop() {
-  if (!quiz.classList.contains("hidden")) {
-    quiz.scrollIntoView({ behavior: "smooth", block: "start" });
+function scrollToTopCard(element) {
+  if (!element.classList.contains("hidden")) {
+    element.scrollIntoView({ behavior: "smooth", block: "start" });
   }
 }
 
@@ -40,9 +62,7 @@ function shuffle(array) {
 }
 
 function clearElement(element) {
-  while (element.firstChild) {
-    element.removeChild(element.firstChild);
-  }
+  while (element.firstChild) element.removeChild(element.firstChild);
 }
 
 function setText(element, text) {
@@ -52,6 +72,14 @@ function setText(element, text) {
 
 function renderEventList(target, events) {
   clearElement(target);
+
+  if (!events || events.length === 0) {
+    const noEvents = document.createElement("div");
+    noEvents.className = "noEvents";
+    noEvents.textContent = "No entries for this year.";
+    target.appendChild(noEvents);
+    return;
+  }
 
   const list = document.createElement("div");
   list.className = "eventList";
@@ -100,18 +128,47 @@ function groupEventsByYear(events) {
   return Array.from(groupsByYear.values()).sort((a, b) => a.year - b.year);
 }
 
-function setDefaultYears() {
-  const years = YEAR_EVENTS.map(item => Number(item.year)).filter(Number.isFinite);
-  const min = Math.min(...years);
-  const max = Math.max(...years);
-  fromYearInput.value = min;
-  toYearInput.value = max;
+function eventsForYear(year) {
+  return YEAR_EVENTS.filter(event => Number(event.year) === Number(year));
 }
 
-function setQuizMode(mode) {
+function setDefaultYears() {
+  const years = YEAR_EVENTS.map(item => Number(item.year)).filter(Number.isFinite);
+  minDataYear = Math.min(...years);
+  maxDataYear = Math.max(...years);
+  fromYearInput.value = minDataYear;
+  toYearInput.value = maxDataYear;
+  startSwipeYearInput.value = minDataYear;
+  currentSwipeYear = minDataYear;
+}
+
+function showHome() {
+  home.classList.remove("hidden");
+  quizControls.classList.add("hidden");
+  swipeControls.classList.add("hidden");
+  quiz.classList.add("hidden");
+  swipeView.classList.add("hidden");
+  scrollToTopCard(home);
+}
+
+function chooseQuiz(mode) {
   quizMode = mode;
-  modeYearToEventBtn.classList.toggle("active", mode === "year-to-event");
-  modeEventToYearBtn.classList.toggle("active", mode === "event-to-year");
+  home.classList.add("hidden");
+  swipeControls.classList.add("hidden");
+  swipeView.classList.add("hidden");
+  quiz.classList.add("hidden");
+  quizControls.classList.remove("hidden");
+  startQuizBtn.textContent = mode === "year-to-event" ? "Start Quiz by Year" : "Start Quiz by Event";
+  scrollToTopCard(quizControls);
+}
+
+function chooseSwipeMode() {
+  home.classList.add("hidden");
+  quizControls.classList.add("hidden");
+  quiz.classList.add("hidden");
+  swipeView.classList.add("hidden");
+  swipeControls.classList.remove("hidden");
+  scrollToTopCard(swipeControls);
 }
 
 function startQuiz() {
@@ -125,8 +182,8 @@ function startQuiz() {
 
   const min = Math.min(from, to);
   const max = Math.max(from, to);
-
   const filteredEvents = YEAR_EVENTS.filter(item => Number(item.year) >= min && Number(item.year) <= max);
+
   deck = shuffle(groupEventsByYear(filteredEvents));
   currentIndex = 0;
   correctCount = 0;
@@ -139,7 +196,7 @@ function startQuiz() {
 
   quiz.classList.remove("hidden");
   showCard();
-  keepQuizAtTop();
+  scrollToTopCard(quiz);
 }
 
 function showCard() {
@@ -152,7 +209,7 @@ function showCard() {
     gradeBtns.classList.add("hidden");
     answerLabel.textContent = "Result";
     setText(answerMain, "Quiz finished");
-    answerDescription.textContent = `Correct: ${correctCount}. Again: ${againCount}.`;
+    answerDescription.textContent = `Correct: ${correctCount}. Try Again: ${againCount}.`;
     updateScore();
     return;
   }
@@ -183,7 +240,7 @@ function revealAnswer() {
   answerBox.classList.remove("hidden");
   gradeBtns.classList.remove("hidden");
   revealBtn.classList.add("hidden");
-  keepQuizAtTop();
+  scrollToTopCard(quiz);
 }
 
 function grade(isCorrect) {
@@ -195,11 +252,11 @@ function grade(isCorrect) {
   }
   currentIndex += 1;
   showCard();
-  keepQuizAtTop();
+  scrollToTopCard(quiz);
 }
 
 function updateScore() {
-  score.textContent = `Correct: ${correctCount} · Again: ${againCount}`;
+  score.textContent = `Correct: ${correctCount} · Try Again: ${againCount}`;
 }
 
 function resetStats() {
@@ -208,13 +265,72 @@ function resetStats() {
   updateScore();
 }
 
-modeYearToEventBtn.addEventListener("click", () => setQuizMode("year-to-event"));
-modeEventToYearBtn.addEventListener("click", () => setQuizMode("event-to-year"));
-startBtn.addEventListener("click", startQuiz);
+function startSwipeMode() {
+  const startYear = Number(startSwipeYearInput.value);
+
+  if (!Number.isFinite(startYear)) {
+    alert("Please enter a valid start year.");
+    return;
+  }
+
+  currentSwipeYear = Math.round(startYear);
+  swipeView.classList.remove("hidden");
+  renderSwipeYear();
+  scrollToTopCard(swipeView);
+}
+
+function renderSwipeYear() {
+  setText(swipeYearEl, currentSwipeYear);
+  renderEventList(swipeEventsEl, eventsForYear(currentSwipeYear));
+  swipePosition.textContent = `${currentSwipeYear} · ${minDataYear}–${maxDataYear}`;
+}
+
+function moveSwipeYear(delta) {
+  currentSwipeYear += delta;
+  renderSwipeYear();
+  scrollToTopCard(swipeView);
+}
+
+chooseQuizYearBtn.addEventListener("click", () => chooseQuiz("year-to-event"));
+chooseQuizEventBtn.addEventListener("click", () => chooseQuiz("event-to-year"));
+chooseSwipeBtn.addEventListener("click", chooseSwipeMode);
+backFromQuizBtn.addEventListener("click", showHome);
+backFromSwipeBtn.addEventListener("click", showHome);
+startQuizBtn.addEventListener("click", startQuiz);
 revealBtn.addEventListener("click", revealAnswer);
 againBtn.addEventListener("click", () => grade(false));
 correctBtn.addEventListener("click", () => grade(true));
 resetStatsBtn.addEventListener("click", resetStats);
+startSwipeBtn.addEventListener("click", startSwipeMode);
+prevYearBtn.addEventListener("click", () => moveSwipeYear(-1));
+nextYearBtn.addEventListener("click", () => moveSwipeYear(1));
+
+swipeView.addEventListener("touchstart", event => {
+  if (!event.changedTouches || event.changedTouches.length === 0) return;
+  touchStartX = event.changedTouches[0].clientX;
+  touchStartY = event.changedTouches[0].clientY;
+}, { passive: true });
+
+swipeView.addEventListener("touchend", event => {
+  if (touchStartX === null || touchStartY === null) return;
+  if (!event.changedTouches || event.changedTouches.length === 0) return;
+
+  const endX = event.changedTouches[0].clientX;
+  const endY = event.changedTouches[0].clientY;
+  const deltaX = endX - touchStartX;
+  const deltaY = endY - touchStartY;
+
+  touchStartX = null;
+  touchStartY = null;
+
+  if (Math.abs(deltaX) < 50 || Math.abs(deltaX) < Math.abs(deltaY)) return;
+
+  if (deltaX > 0) {
+    moveSwipeYear(1);
+  } else {
+    moveSwipeYear(-1);
+  }
+}, { passive: true });
 
 setDefaultYears();
-setQuizMode("year-to-event");
+showHome();
