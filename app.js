@@ -326,9 +326,9 @@ swipeView.addEventListener("touchend", event => {
   if (Math.abs(deltaX) < 50 || Math.abs(deltaX) < Math.abs(deltaY)) return;
 
   if (deltaX > 0) {
-    moveSwipeYear(1);
-  } else {
     moveSwipeYear(-1);
+  } else {
+    moveSwipeYear(1);
   }
 }, { passive: true });
 
