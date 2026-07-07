@@ -6,7 +6,7 @@ const YEAR_EVENTS = [
   },
   {
     year: 1001,
-    title: "Liaodi Started",
+    title: "Brick Liaodi Started",
     description: "Song China begins building Dingzhou’s 84-metre brick pagoda, later used to watch enemy movements."
   },
   {
@@ -106,7 +106,7 @@ const YEAR_EVENTS = [
   },
   {
     year: 1021,
-    title: "Genji Complete",
+    title: "Tale of Genji Complete",
     description: "The Tale of Genji is complete, becoming Japan’s great court novel and the first psychological novel."
   },
   {
@@ -121,7 +121,7 @@ const YEAR_EVENTS = [
   },
   {
     year: 1024,
-    title: "Paper Money",
+    title: "Song Paper Money",
     description: "Song China issues standardized government jiaozi notes, helping create the world’s first major paper currency system."
   },
   {
@@ -191,7 +191,7 @@ const YEAR_EVENTS = [
   },
   {
     year: 1038,
-    title: "Harald in Sicily",
+    title: "Hardrada in Sicily",
     description: "Future Norwegian king Harald Hardrada joins the Byzantine emperor Byzantine and starts the campaign to reconquer Sicily from Muslim rule."
   },
   {
@@ -206,12 +206,12 @@ const YEAR_EVENTS = [
   },
   {
     year: 1041,
-    title: "Harald Bulgar-Burner",
+    title: "Hardrada Bulgar-Burner",
     description: "Future Norwegian king Harald Hardrada helps Byzantium crush Peter Delyan’s Bulgarian revolt, earning the saga nickname “Bulgar-burner.”"
   },
   {
     year: 1042,
-    title: "Harald Escapes",
+    title: "Hardrada Escapes",
     description: "Future Norwegian king Harald Hardrada leaves Byzantine service, escaping through Kievan Rus with wealth, battlefield fame and royal ambitions."
   },
   {
@@ -221,7 +221,7 @@ const YEAR_EVENTS = [
   },
   {
     year: 1044,
-    title: "Gunpowder Formula",
+    title: "Song Gunpowder Formula",
     description: "Song China’s Wujing Zongyao records the earliest known gunpowder formulas, transforming warfare through chemistry."
   },
   {
@@ -271,22 +271,17 @@ const YEAR_EVENTS = [
   },
   {
     year: 1054,
-    title: "Crab Supernova",
-    description: "Chinese astronomers record a brilliant “guest star,” later identified as the supernova that created the Crab Nebula."
-  },
-  {
-    year: 1054,
     title: "Great Schism",
     description: "Rome and Constantinople exchanged excommunications, symbolising the split between Catholic and Orthodox Christianity."
   },
   {
     year: 1055,
-    title: "Brick Pagoda",
+    title: "Brick Pagoda Completed",
     description: "Song China completes Dingzhou’s 84-metre Liaodi Pagoda, a Buddhist tower later used to watch enemy movements. It still stands today."
   },
   {
     year: 1056,
-    title: "Wooden Pagoda",
+    title: "Wooden Pagoda Completed",
     description: "Liao China builds Fogong Temple’s wooden pagoda, now the world’s oldest and tallest surviving wooden pagoda."
   },
   {
@@ -411,8 +406,8 @@ const YEAR_EVENTS = [
   },
   {
     year: 1079,
-    title: "Jalali Calendar",
-    description: "Persian scholar Omar Khayyam helps create the Seljuk Jalali calendar, calculating the solar year with remarkable precision."
+    title: "El Cid Cabra Victory",
+    description: "El Cid defeats Granada’s forces near Cabra while collecting tribute, boosting fame but creating court enemies."
   },
   {
     year: 1080,
@@ -426,8 +421,8 @@ const YEAR_EVENTS = [
   },
   {
     year: 1082,
-    title: "Venice Privileges",
-    description: "Byzantine empire grants Venice major trade privileges, rewarding naval support and boosting Venetian Mediterranean power."
+    title: "Henry Besieges Rome",
+    description: "Emperor Henry IV besieges Rome to force out Pope Gregory VII, whose reforms challenged imperial control."
   },
   {
     year: 1083,
@@ -451,8 +446,8 @@ const YEAR_EVENTS = [
   },
   {
     year: 1087,
-    title: "William Dies",
-    description: "William the Conqueror dies in Normandy, leaving England and Normandy divided between his sons."
+    title: "El Cid Back to Court",
+    description: "After Alfonso VI’s defeat by the Almoravids, El Cid returns from exile to negotiate with taifa kingdoms."
   },
   {
     year: 1088,
@@ -461,7 +456,7 @@ const YEAR_EVENTS = [
   },
   {
     year: 1089,
-    title: "El Cid Rises",
+    title: "El Cid pressures Valencia",
     description: "Castilian knight Rodrigo Díaz, known as El Cid, forces Valencia to pay tribute, beginning his rise as an independent Iberian warlord."
   },
   {
@@ -471,12 +466,12 @@ const YEAR_EVENTS = [
   },
   {
     year: 1091,
-    title: "Seville Falls",
+    title: "Almoravids take Seville",
     description: "Almoravids take Seville from its taifa ruler, replacing local Muslim dynasties with North African control in al-Andalus."
   },
   {
     year: 1092,
-    title: "Almoravid Iberia",
+    title: "Almoravids absorb Southern Iberia",
     description: "Almoravids absorb major taifa kingdoms, replacing local Muslim rulers with North African rule across much of al-Andalus."
   },
   {
@@ -546,7 +541,7 @@ const YEAR_EVENTS = [
   },
   {
     year: 1106,
-    title: "Chinese Atlas",
+    title: "Song Chinese Atlas",
     description: "Song cartographers create detailed maps and geographic records, reflecting China’s sophisticated state administration and spatial knowledge."
   },
   {
@@ -571,17 +566,17 @@ const YEAR_EVENTS = [
   },
   {
     year: 1111,
-    title: "Pope Captured",
-    description: "Henry V imprisons Pope Paschal II, forcing concessions over bishop appointments before being crowned emperor."
+    title: "Tyre Besieged",
+    description: "Baldwin I begins besieging Fatimid-held Tyre, one of the last major coastal cities outside Crusader control."
   },
   {
     year: 1112,
-    title: "Laon Revolt",
-    description: "Citizens of Laon rebel against their bishop, killing him after a failed commune, exposing tensions in growing medieval towns."
+    title: "Tyre Resists",
+    description: "Damascus relieves Fatimid-held Tyre, forcing Baldwin I to abandon his costly Crusader siege and withdraw."
   },
   {
     year: 1113,
-    title: "Knights Hospitaller",
+    title: "Knights Hospitaller Recognized",
     description: "A Jerusalem hospital community receives papal recognition, becoming the Hospital Order and caring for pilgrims in the Holy Land."
   },
   {
@@ -596,13 +591,13 @@ const YEAR_EVENTS = [
   },
   {
     year: 1116,
-    title: "Battle of Philomelion",
-    description: "Byzantines defeat Seljuk forces in Anatolia, helping secure western territories after decades of Turkish pressure."
+    title: "Mallorca Restored",
+    description: "Muslim rule returns to Mallorca after the Pisan-Catalan raid, showing the campaign was destructive but not permanent conquest."
   },
   {
     year: 1117,
-    title: "Mallorca Restored",
-    description: "Muslim rule returns to Mallorca after the Pisan-Catalan raid, showing the campaign was destructive but not permanent conquest."
+    title: "Crusader Jordan Raids",
+    description: "Baldwin I leads raids beyond the Jordan, strengthening Jerusalem’s frontier before his death in 1118."
   },
   {
     year: 1118,
@@ -621,7 +616,7 @@ const YEAR_EVENTS = [
   },
   {
     year: 1121,
-    title: "Baldwin Secures Frontier",
+    title: "Baldwin II Secures Frontier",
     description: "King Baldwin II destroyed a Damascene border fortress, defending Jerusalem’s frontier against renewed Muslim pressure."
   },
   {
@@ -651,7 +646,7 @@ const YEAR_EVENTS = [
   },
   {
     year: 1127,
-    title: "Song Dynasty Falls",
+    title: "Northern Song Falls",
     description: "Jin armies captured Kaifeng and the Song emperors, ending the Northern Song and re-establishing the Song court in the south."
   },
   {
@@ -666,7 +661,7 @@ const YEAR_EVENTS = [
   },
   {
     year: 1130,
-    title: "Yangtze Resistance",
+    title: "Song Yangtze Resistance",
     description: "Southern Song forces trapped a Jin army near the Yangtze River, proving northern conquest could still be resisted."
   },
   {
@@ -701,7 +696,7 @@ const YEAR_EVENTS = [
   },
   {
     year: 1137,
-    title: "Tripoli Defeat",
+    title: "Crusaders Defeat at Tripoli",
     description: "Damascene forces defeated Tripoli’s Crusader army, killing its count and weakening the northern Crusader frontier."
   },
   {
@@ -746,7 +741,7 @@ const YEAR_EVENTS = [
   },
   {
     year: 1146,
-    title: "Royal Crusade",
+    title: "Royals in Second Crusade",
     description: "France’s and Germany’s kings committed to the Second Crusade, planning to aid the Holy Land after Edessa’s fall."
   },
   {
@@ -806,18 +801,18 @@ const YEAR_EVENTS = [
   },
   {
     year: 1158,
-    title: "Calatrava Founded",
+    title: "Calatrava Order Founded",
     description: "Spanish monks pledged to defend Calatrava, beginning a major military order of the Reconquista."
   },
   {
     year: 1159,
-    title: "Papal Schism",
-    description: "A disputed papal election split the Western Church, pulling Holy Roman Emperor Barbarossa into conflict with Rome and Italian communes."
+    title: "Heiji Crisis",
+    description: "In late 1159, Japanese court rivalries erupt into the Heiji conflict, helping the Taira defeat the Minamoto."
   },
   {
     year: 1160,
     title: "Heiji Rebellion",
-    description: "Rival samurai clans fought in Kyoto, strengthening Taira power and deepening the Minamoto–Taira struggle (started in 1159)."
+    description: "Rival samurai clans fought in Kyoto, strengthening Taira power and deepening the Minamoto-Taira struggle (started in 1159)."
   },
   {
     year: 1161,
@@ -826,7 +821,7 @@ const YEAR_EVENTS = [
   },
   {
     year: 1162,
-    title: "Genghis Born",
+    title: "Temüjin Born",
     description: "Temüjin, later Genghis Khan, was born on the Mongolian steppe, destined to found history’s largest land empire."
   },
   {
@@ -846,7 +841,7 @@ const YEAR_EVENTS = [
   },
   {
     year: 1166,
-    title: "Nile Campaign",
+    title: "Battles for Nile",
     description: "Syrian forces returned to Egypt, drawing Crusader Jerusalem into a renewed struggle for Cairo and the Nile."
   },
   {
@@ -986,7 +981,7 @@ const YEAR_EVENTS = [
   },
   {
     year: 1189,
-    title: "Acre Besieged",
+    title: "Acre Besieged in Third Crusade",
     description: "Jerusalem’s surviving Crusader forces began besieging Acre, opening the main battlefield struggle of the Third Crusade."
   },
   {
@@ -1046,7 +1041,7 @@ const YEAR_EVENTS = [
   },
   {
     year: 1200,
-    title: "Egypt Route Chosen",
+    title: "Egypt Route Chosen for Fourth Crusade",
     description: "Crusader leaders planned a sea expedition against Egypt, unknowingly setting the path toward Venice and Constantinople."
   }
 ];
