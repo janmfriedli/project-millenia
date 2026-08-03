@@ -141,13 +141,13 @@ const YEAR_EVENTS = [
   },
   {
     year: 1028,
-    title: "North Sea Empire",
-    description: "Cnut drives Olaf II into exile, adding Norway to his England-Denmark realm and completing his North Sea empire."
+    title: "Cnut Takes Norway",
+    description: "Cnut conquers Norway with local support, forcing King Olaf Haraldsson to flee into exile in Novgorod."
   },
   {
     year: 1029,
-    title: "Acupuncture Manual",
-    description: "Song physician Wang Weiyi writes an illustrated acupuncture manual, standardizing treatment points for medical teaching and examinations."
+    title: "Olaf Plans Return",
+    description: "Exiled at Yaroslav the Wise’s court, Olaf prepares to reclaim Norway after Cnut’s regent Håkon drowns."
   },
   {
     year: 1030,
@@ -247,7 +247,7 @@ const YEAR_EVENTS = [
   {
     year: 1049,
     title: "Reims Council",
-    description: "Pope Leo IX holds the Council of Reims, attacking simony, clerical marriage and corruption in the medieval Church"
+    description: "Pope Leo IX holds the Council of Reims, attacking simony, clerical marriage and corruption in the medieval Church."
   },
   {
     year: 1050,
@@ -516,7 +516,7 @@ const YEAR_EVENTS = [
   },
   {
     year: 1101,
-    title: "Second Crusade Fails",
+    title: "First Crusade Falters",
     description: "Follow-up crusader armies are destroyed in Anatolia, showing that initial success was difficult to repeat."
   },
   {
@@ -691,8 +691,8 @@ const YEAR_EVENTS = [
   },
   {
     year: 1136,
-    title: "Novgorod Republic",
-    description: "Novgorod expelled its prince, becoming a powerful merchant republic in northwestern Russia."
+    title: "Stephen Secures Rule",
+    description: "Pope Innocent II recognises Stephen as king, strengthening his disputed claim against Henry I’s daughter, Empress Matilda."
   },
   {
     year: 1137,
@@ -731,7 +731,7 @@ const YEAR_EVENTS = [
   },
   {
     year: 1144,
-    title: "Crusader State Falls",
+    title: "Edessa Falls",
     description: "Zengi captured Edessa, causing the first major collapse of a Crusader state and triggering calls for the Second Crusade."
   },
   {
@@ -751,12 +751,12 @@ const YEAR_EVENTS = [
   },
   {
     year: 1148,
-    title: "Second Crusade Collapses",
+    title: "Second Crusade Collapses in Damascus",
     description: "The Second Crusade failed at Damascus, leaving Edessa unrecovered and weakening Crusader confidence in the Holy Land."
   },
   {
     year: 1149,
-    title: "Crusaders Crushed",
+    title: "Second Crusaders Crushed",
     description: "The Crusader army of Antioch was destroyed near Inab, strengthening Nur al-Din after the Second Crusade’s failure."
   },
   {
@@ -786,7 +786,7 @@ const YEAR_EVENTS = [
   },
   {
     year: 1155,
-    title: "Printed Map",
+    title: "Song Printed Map",
     description: "In Song China, Yang Jia’s encyclopedia included the oldest known printed terrain map, showing western China."
   },
   {
@@ -796,8 +796,8 @@ const YEAR_EVENTS = [
   },
   {
     year: 1157,
-    title: "Free Fortress",
-    description: "Fribourg was founded as a “free fortress” on the Sarine cliffs, becoming a strategic Swiss Zähringen city."
+    title: "Calatrava Defence",
+    description: "After the Templars abandon Calatrava, Abbot Raymond of Fitero volunteers to defend the frontier fortress."
   },
   {
     year: 1158,
@@ -816,7 +816,7 @@ const YEAR_EVENTS = [
   },
   {
     year: 1161,
-    title: "Gunpowder Navy",
+    title: "Song Gunpowder Navy",
     description: "Song warships used explosive weapons against a Jin fleet at Caishi, helping stop a major invasion of southern China."
   },
   {
@@ -846,7 +846,7 @@ const YEAR_EVENTS = [
   },
   {
     year: 1167,
-    title: "Young Saladin Fights",
+    title: "Giza Battle with Saladin",
     description: "Crusader and Syrian armies fought near Giza, including a young Saladin, beginning his rise in the struggle for Cairo and the Nile."
   },
   {
@@ -856,7 +856,7 @@ const YEAR_EVENTS = [
   },
   {
     year: 1169,
-    title: "Saladin Takes Egypt",
+    title: "Saladin Vizier from Egypt",
     description: "After Syrian forces entered Cairo, Saladin became vizier of Fatimid Egypt, beginning his rise to power."
   },
   {
@@ -976,13 +976,13 @@ const YEAR_EVENTS = [
   },
   {
     year: 1188,
-    title: "Tax for Jerusalem",
+    title: "Jerusalem Crusader Tax",
     description: "England and France imposed a huge crusade tax (“Saladin Tithe” to fund the campaign to recover Jerusalem from Saladin."
   },
   {
     year: 1189,
     title: "Acre Besieged in Third Crusade",
-    description: "Jerusalem’s surviving Crusader forces began besieging Acre, opening the main battlefield struggle of the Third Crusade."
+    description: "Richard the Lionheart, Philip II and Frederick Barbarossa launch a campaign to recapture Jerusalem from Saladin."
   },
   {
     year: 1190,
@@ -991,7 +991,7 @@ const YEAR_EVENTS = [
   },
   {
     year: 1191,
-    title: "Richard Advances",
+    title: "Lionheart Captures Acre",
     description: "Richard the Lionheart captured Acre and defeated Saladin at Arsuf, giving the Third Crusade its greatest victories."
   },
   {
@@ -1036,12 +1036,287 @@ const YEAR_EVENTS = [
   },
   {
     year: 1199,
-    title: "Fourth Crusade Vow",
-    description: "At a tournament in northern France, leading nobles took the cross, turning the crusade call into a real aristocratic movement."
+    title: "Fourth Crusade Gathers",
+    description: "At a tournament in Écry, leading French nobles take the cross and form the Fourth Crusade’s first army."
   },
   {
     year: 1200,
     title: "Egypt Route Chosen for Fourth Crusade",
     description: "Crusader leaders planned a sea expedition against Egypt, unknowingly setting the path toward Venice and Constantinople."
+  },
+  {
+    year: 1201,
+    title: "Venice Contract for Fourth Crusade",
+    description: "Crusader leaders hired Doge Enrico Dandolo’s Venice to carry 33,500 men, 4,500 horses and 50 war galleys."
+  },
+  {
+    year: 1202,
+    title: "Zara Sacked in Fourth Crusade",
+    description: "Unable to pay Venice for transport, crusaders attacked Christian Zara for Doge Enrico Dandolo, corrupting the Fourth Crusade."
+  },
+  {
+    year: 1203,
+    title: "Golden Horn Opened",
+    description: "Fourth Crusade and Venetian forces capture Galata’s tower, break the harbor chain, and sail into the Golden Horn at Constantinople."
+  },
+  {
+    year: 1204,
+    title: "Constantinople Sacked",
+    description: "Fourth Crusade and Venetian forces storm Constantinople, replacing Byzantine rule with a fragile Catholic crusader state."
+  },
+  {
+    year: 1205,
+    title: "Adrianople Disaster",
+    description: "Bulgarian forces defeats the Latin Empire near Adrianople, capturing Emperor Baldwin I only one year after Constantinople’s conquest."
+  },
+  {
+    year: 1206,
+    title: "Mongols United",
+    description: "After defeating rival steppe powers, Temüjin receives the title Genghis Khan at a great kurultai and reorganizes Mongolia for conquest."
+  },
+  {
+    year: 1207,
+    title: "Mongols Enter China",
+    description: "Mongol forces push into Western Xia’s Ordos region, marking an early step toward conquest beyond the steppe."
+  },
+  {
+    year: 1208,
+    title: "Francis Renounces",
+    description: "Francis of Assisi publicly renounces his father’s wealth, choosing poverty and beginning his radical religious path."
+  },
+  {
+    year: 1209,
+    title: "Franciscan Beginnings",
+    description: "Francis of Assisi and his first companions travel to Rome, seeking approval for the poverty movement to grow into the Franciscan Order."
+  },
+  {
+    year: 1209,
+    title: "Albigensian Crusade",
+    description: "Crusaders invade southern France and massacre Béziers, beginning a brutal twenty-year campaign against the Cathars."
+  },
+  {
+    year: 1210,
+    title: "Western Xia Submits",
+    description: "After Genghis Khan’s invasion, Western Xia accepts Mongol overlordship, giving tribute and support to the Mongols."
+  },
+  {
+    year: 1211,
+    title: "Great Wall Breached",
+    description: "Mongol armies break through Jin frontier defences, pushing past Great Wall lines into northern China."
+  },
+  {
+    year: 1212,
+    title: "Reconquista Turns",
+    description: "Christian armies defeat the Almohads at Las Navas de Tolosa, a major turning point in the Reconquista."
+  },
+  {
+    year: 1213,
+    title: "Zhongdu Threatened",
+    description: "Mongol armies attack Jin territory again, moving toward the imperial capital Zhongdu, modern Beijing."
+  },
+  {
+    year: 1214,
+    title: "Bouvines Victory",
+    description: "Philip II defeats King John’s coalition at Bouvines, strengthening France and helping trigger England’s Magna Carta crisis."
+  },
+  {
+    year: 1214,
+    title: "Zhongdu Besieged",
+    description: "Genghis Khan surrounds the Jin capital Zhongdu, forcing tribute before the Jin court flees south."
+  },
+  {
+    year: 1215,
+    title: "Magna Carta",
+    description: "English barons force King John to accept Magna Carta, limiting royal power and shaping later constitutional ideas."
+  },
+  {
+    year: 1215,
+    title: "Zhongdu Falls",
+    description: "Mongol forces capture Zhongdu, modern Beijing, dealing a devastating blow to the Jurchen Jin dynasty."
+  },
+  {
+    year: 1216,
+    title: "Louis Invades",
+    description: "Prince Louis of France lands in England, backed by rebel barons who want to replace King John."
+  },
+  {
+    year: 1217,
+    title: "Sandwich Battle",
+    description: "English ships defeat French reinforcements near Sandwich, cutting off Prince Louis’s invasion and ending his hopes."
+  },
+  {
+    year: 1217,
+    title: "Fifth Crusade Begins",
+    description: "European crusaders assemble at Acre and campaign in the Holy Land, beginning the Fifth Crusade against the Ayyubids."
+  },
+  {
+    year: 1218,
+    title: "Otrar Incident",
+    description: "A Mongol trade caravan is seized at Otrar by the Khwarazmian governor, provoking Genghis Khan’s conquest of Central Asia."
+  },
+  {
+    year: 1219,
+    title: "Damietta Captured Fifth Crusade",
+    description: "Fifth Crusade forces capture Egypt’s strategic port of Damietta after an eighteen-month siege, hoping to exchange it for Jerusalem."
+  },
+  {
+    year: 1220,
+    title: "Samarkand Falls",
+    description: "Mongol armies take Samarkand, one of Central Asia’s greatest cities, breaking the Khwarazmian Empire’s main power base."
+  },
+  {
+    year: 1221,
+    title: "Fifth Crusade Collapses",
+    description: "Trapped during their advance toward Cairo, the crusaders surrender Damietta and abandon the Fifth Crusade."
+  },
+  {
+    year: 1222,
+    title: "Golden Bull",
+    description: "Andrew II issues Hungary’s Golden Bull, limiting royal power and confirming noble rights to resist unlawful kings."
+  },
+  {
+    year: 1223,
+    title: "Expeditionary Mongols in Ukraine",
+    description: "The Mongols win a decisive battle at Kalka river near today’s eastern Ukraine, foreshadowing their later conquest of Rus’."
+  },
+  {
+    year: 1224,
+    title: "Francis Stigmata",
+    description: "Francis of Assisi receives the stigmata (wounds of christ) while praying on Mount La Verna, a defining miracle in Franciscan memory."
+  },
+  {
+    year: 1225,
+    title: "Expeditionary Mongols Return",
+    description: "After their Ukrainian steppe raid, Subutai’s army returns east to Genghis Khan before the final Western Xia campaign."
+  },
+  {
+    year: 1226,
+    title: "Mongols Attack Xia Again",
+    description: "Genghis Khan begins his final campaign against Western Xia, punishing the Tangut kingdom’s disobedience."
+  },
+  {
+    year: 1227,
+    title: "Genghis Dies",
+    description: "Genghis Khan dies during the final campaign against Western Xia, leaving his empire to expand under his four sons."
+  },
+  {
+    year: 1228,
+    title: "Diplomatic Sixth Crusade",
+    description: "Frederick II leaves Brindisi for the Holy Land, despite papal excommunication, beginning the unusual Sixth Crusade and preparing to win Jerusalem through negotiation rather than conquest."
+  },
+  {
+    year: 1229,
+    title: "Jerusalem Returned Diplomatically",
+    description: "Frederick II signs the Treaty of Jaffa with al-Kamil, restoring Jerusalem to Christian control without major fighting."
+  },
+  {
+    year: 1230,
+    title: "Frederick Reconciled",
+    description: "Pope Gregory IX readmits Frederick II to the Church after his excommunicated crusade regained Jerusalem."
+  },
+  {
+    year: 1231,
+    title: "Mongols Invade Korea",
+    description: "Already conquering northern China, Ögedei Khan’s Mongols invade Korea, beginning decades of warfare and eventual submission."
+  },
+  {
+    year: 1232,
+    title: "Kaifeng Gunpowder",
+    description: "Jin defenders use fire lances and thunder-crash bombs against Mongols besieging their capital, Kaifeng."
+  },
+  {
+    year: 1233,
+    title: "Song Joins Mongols",
+    description: "The Southern Song allies with the Mongols as Emperor Aizong flees Kaifeng toward the Jin dynasty’s final stronghold."
+  },
+  {
+    year: 1234,
+    title: "Jin Dynasty Ends",
+    description: "Mongol and Southern Song forces capture Caizhou, destroying the Jin dynasty after twenty-three years of Mongol warfare."
+  },
+  {
+    year: 1235,
+    title: "Karakorum Capital",
+    description: "Ögedei develops Karakorum as the Mongol Empire’s permanent capital and administrative centre."
+  },
+  {
+    year: 1235,
+    title: "Mongols Target Europe",
+    description: "Ögedei’s great council authorizes a vast western campaign under Batu and Subutai against the Volga region and Europe."
+  },
+  {
+    year: 1236,
+    title: "Mongols Invade Bulgaria",
+    description: "Batu Khan and Subutai conquer Volga Bulgaria, opening the Mongols’ great western invasion toward Russia and Europe."
+  },
+  {
+    year: 1237,
+    title: "Mongols Invade Rus’",
+    description: "Batu Khan’s armies destroy Ryazan, beginning the full-scale Mongol conquest of the Rus’ principalities."
+  },
+  {
+    year: 1238,
+    title: "Mongols destroy Moscow",
+    description: "Batu Khan’s Mongols capture and burn Moscow during their devastating conquest of northeastern Rus’."
+  },
+  {
+    year: 1239,
+    title: "Mongols destroy Chernigov",
+    description: "Batu Khan’s Mongols capture and sack Chernigov, extending their conquest into the southern Rus’ principalities."
+  },
+  {
+    year: 1240,
+    title: "Mongols destroy Kyiv",
+    description: "Batu Khan’s Mongols capture and devastate Kyiv, completing their conquest of the Rus’ heartlands and opening the route west."
+  },
+  {
+    year: 1241,
+    title: "Khan Ögedei Dies",
+    description: "Great Khan Ögedei dies while Mongol armies occupy Hungary, creating a succession crisis before their 1242 withdrawal."
+  },
+  {
+    year: 1242,
+    title: "Mongols Withdraw",
+    description: "After reaching Austria and approaching Vienna, Mongol armies withdraw east following Ögedei Khan’s death and the succession tradition.."
+  },
+  {
+    year: 1243,
+    title: "Mongols Subjugate Seljuks",
+    description: "Mongols crush the Seljuk Sultanate of Rum at Köse Dağ, making much of Anatolia tributary to the empire."
+  },
+  {
+    year: 1244,
+    title: "Jerusalem Lost",
+    description: "Khwarazmian refugees and mercenaries, displaced by the Mongols, sack Jerusalem while fighting for Egypt’s Ayyubid sultan."
+  },
+  {
+    year: 1245,
+    title: "Pope contacts Mongol",
+    description: "Pope Innocent IV sends Franciscan envoys carrying letters to the Mongols, opening direct diplomatic communication with their empire."
+  },
+  {
+    year: 1246,
+    title: "Mongols Receives Papal Envoy",
+    description: "Güyük, newly elected Great Khan of the Mongol Empire, answers papal envoys by demanding the pope and Europe submit to Mongol rule."
+  },
+  {
+    year: 1247,
+    title: "Mongols Report Returns",
+    description: "Giovanni da Pian del Carpine returns from Güyük Khan’s court, bringing Europe its first detailed eyewitness account of the Mongols."
+  },
+  {
+    year: 1248,
+    title: "Seventh Crusade",
+    description: "Louis IX sails from France with a vast crusading army, planning to recover Jerusalem by first conquering Egypt."
+  },
+  {
+    year: 1249,
+    title: "Seventh Crusade Captures Damietta",
+    description: "Louis IX’s Seventh Crusade lands in Egypt and rapidly captures Damietta, intending to advance along the Nile toward Cairo."
+  },
+  {
+    year: 1250,
+    title: "Seventh Crusade Fails",
+    description: "Egyptian forces destroy Louis IX’s crusading army at Fariskur and capture the French king, ending the Seventh Crusade’s Egyptian campaign."
   }
 ];
