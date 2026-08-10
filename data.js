@@ -1071,7 +1071,7 @@ const YEAR_EVENTS = [
   },
   {
     year: 1206,
-    title: "Mongols United",
+    title: "Temüjin Unites Mongols",
     description: "After defeating rival steppe powers, Temüjin receives the title Genghis Khan at a great kurultai and reorganizes Mongolia for conquest."
   },
   {
@@ -1086,13 +1086,8 @@ const YEAR_EVENTS = [
   },
   {
     year: 1209,
-    title: "Franciscan Beginnings",
-    description: "Francis of Assisi and his first companions travel to Rome, seeking approval for the poverty movement to grow into the Franciscan Order."
-  },
-  {
-    year: 1209,
-    title: "Albigensian Crusade",
-    description: "Crusaders invade southern France and massacre Béziers, beginning a brutal twenty-year campaign against the Cathars."
+    title: "Franciscan Travels to Rome",
+    description: "Francis of Assisi and his companions travel to Rome, seeking approval for the poverty movement to grow into an order."
   },
   {
     year: 1210,
@@ -1111,28 +1106,18 @@ const YEAR_EVENTS = [
   },
   {
     year: 1213,
-    title: "Zhongdu Threatened",
+    title: "Mongols Move towards Zhongdu",
     description: "Mongol armies attack Jin territory again, moving toward the imperial capital Zhongdu, modern Beijing."
   },
   {
     year: 1214,
-    title: "Bouvines Victory",
-    description: "Philip II defeats King John’s coalition at Bouvines, strengthening France and helping trigger England’s Magna Carta crisis."
-  },
-  {
-    year: 1214,
-    title: "Zhongdu Besieged",
-    description: "Genghis Khan surrounds the Jin capital Zhongdu, forcing tribute before the Jin court flees south."
+    title: "The Battle of Bouvines",
+    description: "Philip II defeats an English-imperial coalition at Bouvines, strengthening France and weakening King John before Magna Carta."
   },
   {
     year: 1215,
     title: "Magna Carta",
     description: "English barons force King John to accept Magna Carta, limiting royal power and shaping later constitutional ideas."
-  },
-  {
-    year: 1215,
-    title: "Zhongdu Falls",
-    description: "Mongol forces capture Zhongdu, modern Beijing, dealing a devastating blow to the Jurchen Jin dynasty."
   },
   {
     year: 1216,
@@ -1147,7 +1132,7 @@ const YEAR_EVENTS = [
   {
     year: 1217,
     title: "Fifth Crusade Begins",
-    description: "European crusaders assemble at Acre and campaign in the Holy Land, beginning the Fifth Crusade against the Ayyubids."
+    description: "European crusaders assemble at Acre and campaign in the Holy Land, beginning a Fifth Crusade against the Ayyubids."
   },
   {
     year: 1218,
@@ -1191,12 +1176,12 @@ const YEAR_EVENTS = [
   },
   {
     year: 1226,
-    title: "Mongols Attack Xia Again",
+    title: "Mongols Punish Western Xia",
     description: "Genghis Khan begins his final campaign against Western Xia, punishing the Tangut kingdom’s disobedience."
   },
   {
     year: 1227,
-    title: "Genghis Dies",
+    title: "Genghis Khan Dies",
     description: "Genghis Khan dies during the final campaign against Western Xia, leaving his empire to expand under his four sons."
   },
   {
@@ -1221,7 +1206,7 @@ const YEAR_EVENTS = [
   },
   {
     year: 1232,
-    title: "Kaifeng Gunpowder",
+    title: "Mongols Besiege Kaifeng",
     description: "Jin defenders use fire lances and thunder-crash bombs against Mongols besieging their capital, Kaifeng."
   },
   {
@@ -1277,7 +1262,7 @@ const YEAR_EVENTS = [
   {
     year: 1242,
     title: "Mongols Withdraw",
-    description: "After reaching Austria and approaching Vienna, Mongol armies withdraw east following Ögedei Khan’s death and the succession tradition.."
+    description: "After reaching Austria and approaching Vienna, Mongol armies withdraw east following Ögedei Khan’s death and the succession tradition."
   },
   {
     year: 1243,
@@ -1318,5 +1303,775 @@ const YEAR_EVENTS = [
     year: 1250,
     title: "Seventh Crusade Fails",
     description: "Egyptian forces destroy Louis IX’s crusading army at Fariskur and capture the French king, ending the Seventh Crusade’s Egyptian campaign."
+  },
+  {
+    year: 1251,
+    title: "Buddhist Canon Completed",
+    description: "Goryeo completes the Tripitaka Koreana after sixteen years of carving of 81,000 wooden printing blocks, seeking divine protection against repeated Mongol invasions."
+  },
+  {
+    year: 1252,
+    title: "Kublai Goes South",
+    description: "Möngke orders his brother Kublai to campaign against the Dali Kingdom, opening the Mongol advance into southwestern China."
+  },
+  {
+    year: 1253,
+    title: "Kublai Conquers Dali",
+    description: "Kublai Khan’s Mongol army conquers the Dali Kingdom, extending Mongol control into Yunnan and opening routes toward Southeast Asia."
+  },
+  {
+    year: 1254,
+    title: "Möngke Meets Rubruck",
+    description: "Franciscan traveller William of Rubruck meets Great Khan Möngke at Karakorum and describes the diverse Mongol capital in remarkable detail."
+  },
+  {
+    year: 1255,
+    title: "Hulagu Goes West",
+    description: "Möngke sends his brother Hulagu into Iran, beginning the Mongol campaign that will destroy Baghdad and establish the Ilkhanate."
+  },
+  {
+    year: 1256,
+    title: "Mongols Takes Assassin’s Castle",
+    description: "Alamut Falls: Hulagu’s Mongols capture Alamut, modern-day northern Iran, destroying the political power of the group known as the Assassins."
+  },
+  {
+    year: 1257,
+    title: "Samalas Erupts",
+    description: "Mount Samalas on Lombok erupts catastrophically, producing the largest stratospheric sulfur release of the Common Era and disrupting global climate."
+  },
+  {
+    year: 1258,
+    title: "Baghdad Falls",
+    description: "Hulagu’s Mongols capture and devastate Baghdad, kill Caliph al-Mustaʿsim, and end the Abbasid Caliphate’s rule from the city."
+  },
+  {
+    year: 1259,
+    title: "Möngke Khan Dies",
+    description: "Great Khan Möngke dies during the siege of Diaoyu Fortress in China, triggering a Mongol succession crisis and civil war."
+  },
+  {
+    year: 1260,
+    title: "Mongol Civil War",
+    description: "Kublai Khan and Ariq Böke both claim the title of Great Khan, beginning a four-year succession war."
+  },
+  {
+    year: 1261,
+    title: "Byzantium Restored",
+    description: "Nicaean forces recapture Constantinople, ending the Latin Empire founded by crusaders and restoring Byzantine rule after fifty-seven years of exile."
+  },
+  {
+    year: 1262,
+    title: "Mongols Fight Mongols",
+    description: "Berke of the Golden Horde attacks Hulagu’s Ilkhanate in the Caucasus, opening the first major war between Mongol successor states"
+  },
+  {
+    year: 1263,
+    title: "Mongol Rivalry Deepens",
+    description: "Fighting between Berke’s Golden Horde and Hulagu’s Ilkhanate disrupts trade and accelerates the Mongol Empire’s political fragmentation."
+  },
+  {
+    year: 1264,
+    title: "Mongol Civil War Ends",
+    description: "Ariq Böke surrenders to his brother Kublai, ending their four-year struggle for control of the Mongol Empire."
+  },
+  {
+    year: 1265,
+    title: "Crusader Cities Fall",
+    description: "Mamluk Sultan Baybars captures Caesarea, Haifa, and Arsuf, steadily dismantling the remaining Crusader territories along the Levantine coast."
+  },
+  {
+    year: 1266,
+    title: "Safed Crusader Fortress Falls",
+    description: "Mamluk sultan Baybars captures the Templars’ powerful fortress at Safed, further weakening the remaining Crusader Kingdom of Jerusalem."
+  },
+  {
+    year: 1267,
+    title: "Learning Reimagined",
+    description: "Roger Bacon sends Pope Clement IV his Opus Majus, advocating mathematics, languages, optics, and experimentation as foundations for reforming knowledge."
+  },
+  {
+    year: 1268,
+    title: "Mongs Besiege Xiangyang",
+    description: "Mongol forces begin the prolonged siege of Xiangyang, a crucial campaign in Kublai Khan’s conquest of the Southern Song."
+  },
+  {
+    year: 1269,
+    title: "Mongol Imperial Script",
+    description: "Kublai Khan officially introduces Phagpa’s script, designed to write the many languages governed across his expanding empire."
+  },
+  {
+    year: 1270,
+    title: "Eighth Crusade Starts/Ends",
+    description: "Louis IX leads a crusade against Tunis, but disease devastates the army and kills the French king before any major conquest."
+  },
+  {
+    year: 1271,
+    title: "Ninth Crusade",
+    description: "England’s Prince Edward reached Acre and forced Baybars to suspend the campaign against the remaining Crusader states."
+  },
+  {
+    year: 1272,
+    title: "Ninth Crusade Ends",
+    description: "Prince Edward secured a ten-year truce with Mamluk sultan Baibars, leaving Acre as last stronghold and ending the final major medieval crusade to the Holy Land."
+  },
+  {
+    year: 1273,
+    title: "Habsburg Rise",
+    description: "Rudolf of Habsburg was elected German king, ending the Great Interregnum and launching his dynasty’s remarkable ascent."
+  },
+  {
+    year: 1274,
+    title: "Mongols Invade Japan",
+    description: "Kublai Khan’s Yuan and Korean forces attacked Kyūshū, but Japanese resistance and a disputed storm forced their withdrawal."
+  },
+  {
+    year: 1275,
+    title: "Marco Polo Reaches China",
+    description: "Marco Polo reportedly reached Kublai Khan’s court, completing his journey along trade routes secured by the Pax Mongolica. (Arrival year approximate.)"
+  },
+  {
+    year: 1276,
+    title: "Mongols takes Song Capital",
+    description: "Mongol forces captured Lin’an and accepted the young Song emperor’s surrender, although loyalists resisted until 1279."
+  },
+  {
+    year: 1277,
+    title: "Mongols Face Elephants",
+    description: "Mongol archers defeated Burma’s elephant army at Ngasaunggyan, beginning Kublai Khan’s prolonged invasions of the Kingdom."
+  },
+  {
+    year: 1278,
+    title: "Final Song Emperor",
+    description: "After Emperor Duanzong died, his six-year-old brother Zhao Bing became the last Song emperor while fleeing Mongol forces."
+  },
+  {
+    year: 1279,
+    title: "Song Defeated, Mongol China",
+    description: "With the Song defeated at the Battle of Yamen, Kublai Khan reunited China under Mongol rule after more than three centuries of division."
+  },
+  {
+    year: 1280,
+    title: "Second Japan Invasion Planned",
+    description: "Kublai Khan ordered preparations for a second, far larger Mongol invasion of Japan, launched the following year."
+  },
+  {
+    year: 1281,
+    title: "Divine Wind Saves Japan",
+    description: "Kublai Khan’s enormous second invasion of Japan failed after Japanese resistance and a devastating typhoon (“Kamikaze”) destroyed much of his fleet."
+  },
+  {
+    year: 1282,
+    title: "Habsburg Austria",
+    description: "Rudolf of Habsburg granted Austria and Styria to his sons, shifting the Habsburg dynasty’s power eastward from its Aargau homeland."
+  },
+  {
+    year: 1283,
+    title: "Aarau Town Rights",
+    description: "Rudolf of Habsburg granted Aarau town rights, strengthening Habsburg rule in present-day Switzerland."
+  },
+  {
+    year: 1284,
+    title: "Brugg Town Rights",
+    description: "Rudolf of Habsburg granted Brugg town rights modelled on Aarau, strengthening his dynasty’s Aargau homeland"
+  },
+  {
+    year: 1285,
+    title: "Bern Receives Imperial Tax",
+    description: "Rudolf imposed an imperial tax on Bern, driving the city into opposition against the Swiss-born Habsburg king."
+  },
+  {
+    year: 1286,
+    title: "Bernese War Begins",
+    description: "Bern attacked Wimmis and destroyed its fortified town, beginning conflict against the Habsburg-aligned barons of Weissenburg."
+  },
+  {
+    year: 1287,
+    title: "Medieval Swiss House",
+    description: "The House of Bethlehem was built in Schwyz, becoming Europe’s oldest wooden house still standing today."
+  },
+  {
+    year: 1288,
+    title: "Bern Resists",
+    description: "Bern survived two sieges by Rudolf of Habsburg, continuing its resistance before suffering defeat at Schosshalde in 1289."
+  },
+  {
+    year: 1289,
+    title: "Bern Defeated",
+    description: "Habsburg forces ambushed Bern’s army at Schosshalde, forcing the city to pay imperial taxes and reparations."
+  },
+  {
+    year: 1290,
+    title: "Habsburg Geneva",
+    description: "Geneva’s bishop granted Rudolf of Habsburg the city’s vidomnat, expanding Habsburg authority within present-day Switzerland."
+  },
+  {
+    year: 1291,
+    title: "Swiss Confederacy Begins",
+    description: "Uri, Schwyz and Unterwalden formed a defensive alliance, traditionally marking the foundation of the Swiss Confederacy."
+  },
+  {
+    year: 1291,
+    title: "Acre Falls",
+    description: "Mamluk forces captured Acre, eliminating the last major Crusader stronghold on the Levantine mainland."
+  },
+  {
+    year: 1292,
+    title: "Zürich Defeated",
+    description: "Habsburg forces defeated Zürich near Winterthur, forcing peace and weakening the anti-Habsburg alliance formed with Uri and Schwyz."
+  },
+  {
+    year: 1293,
+    title: "Kamakura Earthquake",
+    description: "A devastating earthquake struck Japan’s political capital Kamakura, reportedly killing more than 23,000 people."
+  },
+  {
+    year: 1294,
+    title: "Genoa Defeats Venice",
+    description: "An outnumbered Genoese fleet destroyed the Venetians off Laiazzo by fastening its ships into a defensive platform"
+  },
+  {
+    year: 1295,
+    title: "Marco Polo Returns",
+    description: "Marco Polo returned to Venice after twenty-four years travelling through Asia and serving at Kublai Khan’s court."
+  },
+  {
+    year: 1296,
+    title: "Stone of Scone",
+    description: "Edward I defeated Scotland at Dunbar, deposed John Balliol and carried the sacred Stone of Scone to London."
+  },
+  {
+    year: 1297,
+    title: "Stirling Bridge Victory",
+    description: "William Wallace revolted and defeated a larger English army, igniting Scotland’s struggle for independence. He was defeated the following year, resigning as Guardian of Scotland."
+  },
+  {
+    year: 1298,
+    title: "Battle of Curzola",
+    description: "Genoa devastated Venice’s fleet near modern Korčula; Marco Polo was reportedly captured and later dictated his travels."
+  },
+  {
+    year: 1299,
+    title: "Ottoman State Begins",
+    description: "Osman I established an independent frontier principality in Anatolia, traditionally marking the beginning of the Ottoman Empire."
+  },
+  {
+    year: 1300,
+    title: "First Holy Year",
+    description: "Pope Boniface VIII proclaimed the first official Jubilee, a special year of pilgrimage, repentance and indulgences, drawing enormous crowds to Rome."
+  },
+  {
+    year: 1301,
+    title: "Dante’s Downfall Begins",
+    description: "Dante, Florence’s former prior, went to Rome to oppose papal intervention, the Black Guelphs seized power, leading to his exile the following year."
+  },
+  {
+    year: 1302,
+    title: "Dante Exiled",
+    description: "Florence formally exiled Dante for corruption and political opposition, beginning the banishment during which he wrote much of the Divine Comedy."
+  },
+  {
+    year: 1303,
+    title: "Crete Earthquake",
+    description: "A massive earthquake and tsunami devastated Crete and Alexandria, severely damaging its ancient lighthouse, one of the Seven Wonders."
+  },
+  {
+    year: 1304,
+    title: "Wallace’s Last Resistance",
+    description: "While most Scottish leaders submitted to Edward I, William Wallace continued resisting and escaping English capture."
+  },
+  {
+    year: 1305,
+    title: "William Wallace Executed",
+    description: "English forces captured Scottish resistance leader William Wallace near Glasgow. He was tried and brutally executed in London."
+  },
+  {
+    year: 1306,
+    title: "Hospitallers Invade Rhodes",
+    description: "The Knights Hospitaller landed on Rhodes and began conquering the Byzantine island, which became their fortified headquarters for two centuries."
+  },
+  {
+    year: 1307,
+    title: "Templars Arrested",
+    description: "On Friday, 13 October, Philip IV ordered mass arrests of Knights Templar across France, beginning the persecution that destroyed the crusading order."
+  },
+  {
+    year: 1308,
+    title: "Teutonic Knights Seize Gdańsk",
+    description: "The Teutonic Knights captured Gdańsk, killed many inhabitants and seized Pomerelia, beginning a bitter conflict with Poland."
+  },
+  {
+    year: 1309,
+    title: "Teutonic Headquarters Moves",
+    description: "The Teutonic Knights moved their headquarters from Venice to Malbork Castle, making Prussia the centre of their expanding state."
+  },
+  {
+    year: 1309,
+    title: "Papacy Moves to Avignon",
+    description: "Pope Clement V transfers the papal court from Italy to Avignon, beginning the Avignon Papacy. Seven successive popes reside there under strong French influence, leading critics to call the period the papacy’s “Babylonian Captivity.”"
+  },
+  {
+    year: 1310,
+    title: "Templars Burned",
+    description: "Philip IV had 54 Templars burned near Paris after they retracted forced confessions and tried to defend their order."
+  },
+  {
+    year: 1311,
+    title: "Council of Vienne Opens",
+    description: "Pope Clement V opened the council to judge the Templars. Under French pressure, it dissolved them in 1312."
+  },
+  {
+    year: 1312,
+    title: "Council of Vienne Dissolves Templar",
+    description: "Pope Clement V dissolved the Knights Templar under pressure from Philip IV, ending the crusading order after nearly two centuries."
+  },
+  {
+    year: 1313,
+    title: "Templars Final Judgment",
+    description: "Pope Clement V appointed three cardinals to judge imprisoned Templar leaders, including Grandmaster Jacques de Molay, setting the stage for their execution the following year."
+  },
+  {
+    year: 1314,
+    title: "Einsiedeln Raided",
+    description: "Schwyz raided the Habsburg-protected abbey during a territorial dispute, escalating tensions that helped provoke the Morgarten campaign."
+  },
+  {
+    year: 1315,
+    title: "Battle of Morgarten",
+    description: "Forest cantons ambushed and defeated Duke Leopold’s Habsburg army, strengthening the alliance that became the Old Swiss Confederacy."
+  },
+  {
+    year: 1316,
+    title: "Swiss Privileges Confirmed",
+    description: "Louis IV confirmed Uri, Schwyz and Unterwalden’s imperial privileges, strengthening their autonomy after Morgarten and defying the Habsburgs."
+  },
+  {
+    year: 1317,
+    title: "Portuguese Navy Established",
+    description: "King Denis appointed Genoese Manuel Pessanha admiral, giving Portugal a permanent royal navy that later enabled its maritime expansion."
+  },
+  {
+    year: 1318,
+    title: "Order of Christ Planned",
+    description: "King Denis sent envoys to negotiate a Portuguese order inheriting Templar property, laying foundations for the Order of Christ."
+  },
+  {
+    year: 1319,
+    title: "Order of Christ Recognized",
+    description: "Pope John XXII recognized Portugal’s Order of Christ, which inherited Templar property and later supported Portuguese maritime expansion."
+  },
+  {
+    year: 1320,
+    title: "Dante’s Scientific Lecture",
+    description: "Dante presented “Quaestio de Aqua et Terra”, his only scientific work, examining why land rises above the Earth’s waters."
+  },
+  {
+    year: 1321,
+    title: "Dante’s Final Masterpiece",
+    description: "Dante completed the Divine Comedy around 1321 before dying in Ravenna, leaving a masterpiece of Italian and Western literature."
+  },
+  {
+    year: 1322,
+    title: "English Rebellion Crushed",
+    description: "Edward II defeated rebellious nobles at Boroughbridge and executed their leader, Thomas of Lancaster, who later inspired a popular saintly cult."
+  },
+  {
+    year: 1323,
+    title: "Ockham’s Logic",
+    description: "William of Ockham wrote the Summa Logicae, developing logic and nominalism behind the simplicity principle later called Ockham’s razor."
+  },
+  {
+    year: 1324,
+    title: "Mansa Musa’s Golden Pilgrimage",
+    description: "Mansa Musa crossed the Sahara toward Mecca; lavish spending in Cairo advertised Mali’s wealth and devalued gold."
+  },
+  {
+    year: 1325,
+    title: "Tenochtitlán Founded",
+    description: "According to traditional chronology, the Mexica founded Tenochtitlán at the place where, according to legend, an eagle devoured a snake, now depicted on Mexico’s flag."
+  },
+  {
+    year: 1326,
+    title: "Ottomans Capture Bursa",
+    description: "Orhan captured Byzantine Bursa after a long siege, giving the growing Ottoman state its first major city and future capital."
+  },
+  {
+    year: 1327,
+    title: "English King Abdicates",
+    description: "Edward II was forced to abdicate, and fourteen-year-old Edward III was crowned while Queen Isabella and Roger Mortimer, who led the revolt, governed."
+  },
+  {
+    year: 1328,
+    title: "Scotland’s Independence Recognized",
+    description: "England recognized Scotland as independent and Robert the Bruce as king, ending the First War of Scottish Independence."
+  },
+  {
+    year: 1329,
+    title: "Robert the Bruce Dies",
+    description: "Scotland’s liberator died after achieving independence, leaving his crown to five-year-old David II and his heart for crusade."
+  },
+  {
+    year: 1330,
+    title: "Bruce’s Heart Goes to Battle",
+    description: "Sir James Douglas died fighting Granada at Teba while carrying Robert the Bruce’s heart toward the Holy Land."
+  },
+  {
+    year: 1331,
+    title: "Genkō War against Shogunate",
+    description: "Emperor Go-Daigo rebels against Japan’s Kamakura shogunate, beginning the Genkō War. His resistance eventually topples the shogunate and briefly restores imperial rule in 1333."
+  },
+  {
+    year: 1332,
+    title: "Lucerne Joins the Swiss Confederacy",
+    description: "Lucerne forms an alliance with Uri, Schwyz and Unterwalden, becoming the Confederacy’s fourth member and its first city. The pact begins its expansion beyond the three original rural communities."
+  },
+  {
+    year: 1333,
+    title: "Kamakura Shogunate Falls",
+    description: "Imperial loyalists capture Kamakura and destroy the Hōjō regime. Japan’s first shogunate collapses, allowing Emperor Go-Daigo to begin the short-lived Kenmu Restoration of direct imperial rule."
+  },
+  {
+    year: 1334,
+    title: "Christian Fleet Defeats Turkish Beylik",
+    description: "Near Adramyttion, a naval league led by Venice and the Knights Hospitaller defeats the fleet of the Turkish Beylik of Karasi. The victory temporarily restricts Turkish naval raids across the Aegean Sea."
+  },
+  {
+    year: 1335,
+    title: "Start of Kenmu Restoration Collapse",
+    description: "Ashikaga Takauji defeats Hōjō loyalists without imperial authorization. He remains in Kamakura and rebels against Emperor Go-Daigo, beginning the collapse of the Kenmu Restoration"
+  },
+  {
+    year: 1336,
+    title: "Japan Splits Between Two Imperial Courts",
+    description: "Ashikaga Takauji defeats Emperor Go-Daigo’s forces at Minatogawa and captures Kyoto. He installs Emperor Kōmyō, while Go-Daigo establishes a rival court at Yoshino, beginning nearly sixty years of divided imperial rule."
+  },
+  {
+    year: 1337,
+    title: "Hundred Years’ War Begins",
+    description: "Philip VI declares Edward III’s French territories confiscated, while Edward challenges Philip’s right to France’s throne. Their dispute begins the intermittent Hundred Years’ War, fought between England and France until 1453."
+  },
+  {
+    year: 1338,
+    title: "Ashikaga Shogunate Begins",
+    description: "Ashikaga Takauji receives the title of shogun and formally establishes Japan’s second warrior government. Based in Kyoto, the Ashikaga shogunate rules Japan for over two centuries."
+  },
+  {
+    year: 1339,
+    title: "Battle of Laupen",
+    description: "Bern and troops from Uri, Schwyz and Unterwalden defeat a coalition led by Fribourg and regional nobles. Their cooperation strengthens Bern’s relationship with the Confederates and prepares its admission to the Swiss Confederacy in 1353."
+  },
+  {
+    year: 1340,
+    title: "England Destroys the French Fleet at Sluys",
+    description: "Edward III wins a crushing naval victory at Sluys, capturing or destroying most of the French fleet. The triumph removes the immediate threat of invasion and allows English armies to cross the Channel during the Hundred Years’ War."
+  },
+  {
+    year: 1340,
+    title: "Christian Kingdoms Triumph at Río Salado",
+    description: "Castile and Portugal defeat the combined armies of Morocco’s Marinid dynasty and Muslim Granada near Tarifa. The battle prevents another major North African invasion and becomes a decisive turning point in the Reconquista."
+  },
+  {
+    year: 1341,
+    title: "Petrarch Is Crowned Poet Laureate",
+    description: "Petrarch receives the laurel crown on Rome’s Capitoline Hill in a deliberate revival of an ancient tradition. The ceremony symbolizes the rediscovery of classical culture that defines Renaissance humanism. Famous Quote: \"Whatever the world finds pleasing is but a brief dream\""
+  },
+  {
+    year: 1342,
+    title: "Siege of Algeciras Begins",
+    description: "Alfonso XI of Castile besieges Algeciras, the Marinid Empire’s principal Iberian port. Supported by Aragonese and Genoese fleets, he seeks to close this strategic gateway for armies crossing from North Africa."
+  },
+  {
+    year: 1343,
+    title: "Battle of the Strait",
+    description: "Algeciras’s Marinid defenders fire primitive cannon at the Castilian besiegers, among Europe’s earliest recorded uses of gunpowder artillery."
+  },
+  {
+    year: 1344,
+    title: "Algeciras Falls to Castile",
+    description: "Starved by a tightening land and naval blockade, Algeciras surrenders to Alfonso XI after a twenty-one-month siege. Castile gains the Marinids’ principal European port, leaving them only Gibraltar."
+  },
+  {
+    year: 1345,
+    title: "Ponte Vecchio Is Rebuilt",
+    description: "Florence completes the present Ponte Vecchio after the previous bridge was destroyed by floods. Its innovative three segmental arches support rows of shops, making it one of the world’s most recognizable medieval bridges."
+  },
+  {
+    year: 1346,
+    title: "England Triumphs at Crécy",
+    description: "Edward III’s smaller English army decisively defeats Philip VI of France at Crécy. English longbowmen repel repeated attacks, making it the first great English victory of the Hundred Years’ War."
+  },
+  {
+    year: 1347,
+    title: "The Black Death Reaches Europe",
+    description: "Trading ships carry plague from the Black Sea into Mediterranean ports, reaching Constantinople and Sicily. The pandemic rapidly spreads across Europe."
+  },
+  {
+    year: 1348,
+    title: "Black Death Spreads Across Europe",
+    description: "Plague spreads from Mediterranean ports through Italy, France, Iberia and England, killing millions."
+  },
+  {
+    year: 1349,
+    title: "The Black Death Reaches Scandinavia",
+    description: "Plague ships carry the Black Death to Norway, where it spreads rapidly from ports including Bergen and Oslo."
+  },
+  {
+    year: 1350,
+    title: "Plague Ends the Siege of Gibraltar",
+    description: "The Black Death strikes Alfonso XI’s Castilian army while it besieges Muslim-held Gibraltar. Alfonso refuses to withdraw and dies of plague, forcing his forces to abandon their attempted Reconquista conquest."
+  },
+  {
+    year: 1351,
+    title: "Zürich Joins the Swiss Confederacy",
+    description: "Threatened by Austria after Zürich’s mayor Rudolf Brun executed political opponents, the city forms an alliance with Uri, Schwyz, Unterwalden and Lucerne. Zürich becomes the Confederacy’s fifth member and its first major imperial city."
+  },
+  {
+    year: 1352,
+    title: "Glarus and Zug Join the Swiss Confederacy",
+    description: "Confederate forces occupy Habsburg-controlled Glarus and besiege Zug, compelling both to conclude alliances with the Confederates. Traditionally regarded as the sixth and seventh members, they remain contested by the Habsburgs for decades."
+  },
+  {
+    year: 1353,
+    title: "Bern Joins the Swiss Confederacy",
+    description: "Bern concludes an “eternal alliance” with Uri, Schwyz and Unterwalden on 6 March. Its accession completes the Confederacy of the Eight Cantons, whose membership remains unchanged until 1481."
+  },
+  {
+    year: 1354,
+    title: "Ibn Battuta Completes His Great Journey",
+    description: "Ibn Battuta returns to Morocco after nearly thirty years of travel through Africa, Asia and Europe. He has covered approximately 117,000 kilometres, probably travelling farther than any other known premodern explorer. His experiences are soon recorded in the Rihla."
+  },
+  {
+    year: 1355,
+    title: "Venice Executes Its Own Doge",
+    description: "Doge Marino Faliero attempts to overthrow Venice’s aristocratic republic and make himself ruler. After the conspiracy is exposed, the eighty-year-old doge is beheaded and his portrait symbolically erased from the Doge’s Palace."
+  },
+  {
+    year: 1356,
+    title: "Basel Earthquake Devastates the Region",
+    description: "A magnitude 6.6 earthquake and subsequent fires destroy much of Basel and numerous surrounding castles. It remains the strongest historically documented earthquake in Switzerland."
+  },
+  {
+    year: 1357,
+    title: "Construction of Charles Bridge Begins",
+    description: "Emperor Charles IV begins building Prague’s monumental stone bridge across the Vltava, replacing one damaged by the flood of 1342. Legend dates its foundation to 9 July at 5:31, creating the palindrome 135797531, though the precise time is not historically certain."
+  },
+  {
+    year: 1358,
+    title: "Red Turbans Threaten Mongol Rule",
+    description: "Liu Futong’s Red Turbans, a widespread peasant and religious movement rebelling against China’s Mongol-led Yuan dynasty, capture the former Song capital Kaifeng, and establish their restored Song regime there."
+  },
+  {
+    year: 1359,
+    title: "Mongol-led Yuan Recapture Kaifeng",
+    description: "Yuan general Chaghan Temur retakes Kaifeng and drives out the Red Turban regime. Although this reverses the rebels’ greatest northern conquest, the wider uprising continues."
+  },
+  {
+    year: 1359,
+    title: "Golden Horde’s Great Troubles",
+    description: "Khan Berdi Beg dies, probably murdered, ending the Golden Horde’s stable succession. Rival claimants begin the twenty-year Great Troubles, during which more than twenty khans compete for power, weakening Mongol control over the Russian principalities."
+  },
+  {
+    year: 1360,
+    title: "France Mints the First Franc",
+    description: "France introduces the gold franc à cheval to help finance King John II’s ransom following his capture by England. This is the first appearance of the franc, a currency name later adopted by Switzerland and several other countries."
+  },
+  {
+    year: 1361,
+    title: "Pestis Secunda Returns to Europe",
+    description: "A major second wave of plague, known as the pestis secunda, strikes Europe only a decade after the Black Death."
+  },
+  {
+    year: 1362,
+    title: "Grote Mandrenke Strikes Europe",
+    description: "A catastrophic North Sea storm tide overwhelms dikes and destroys settlements along the coasts of the Netherlands, northern Germany and Denmark. Known as the Grote Mandrenke, or “Great Drowning of Men,” it kills tens of thousands and permanently reshapes parts of the coastline."
+  },
+  {
+    year: 1363,
+    title: "Red Turbans Win at Lake Poyang",
+    description: "Zhu Yuanzhang’s smaller fleet defeats rival rebel emperor Chen Youliang using fire ships. The victory makes Zhu the strongest contender to replace China’s Mongol-led Yuan dynasty, enabling him to found the Ming dynasty in 1368."
+  },
+  {
+    year: 1364,
+    title: "University of Kraków Is Founded",
+    description: "Casimir III the Great establishes Poland’s first university on 12 May. Initially teaching liberal arts, medicine and law, it later becomes the Jagiellonian University, where Nicolaus Copernicus studies during the 1490s."
+  },
+  {
+    year: 1365,
+    title: "University of Vienna Is Founded",
+    description: "Duke Rudolf IV establishes the University of Vienna on 12 March. Named the Alma Mater Rudolphina after its founder, it becomes Austria’s oldest university and the oldest continuously operating university in the present-day German-speaking world."
+  },
+  {
+    year: 1366,
+    title: "Castilian Civil War",
+    description: "Supported by French mercenaries, Henry of Trastámara invades Castile and drives his half-brother Pedro I into exile. Henry is crowned King of Castile and León, beginning an international struggle involving France and England within the wider Hundred Years’ War."
+  },
+  {
+    year: 1367,
+    title: "Zhu Yuanzhang Eliminates His Greatest Rival",
+    description: "Zhu captures Suzhou and defeats rival rebel ruler Zhang Shicheng, securing control over the prosperous lower Yangtze region. With his Chinese rivals eliminated, Zhu can attack the Mongol-led Yuan dynasty and found the Ming in 1368."
+  },
+  {
+    year: 1368,
+    title: "Ming Dynasty Replaces Mongol Rule",
+    description: "Former peasant and Red Turban commander Zhu Yuanzhang proclaims himself the Hongwu Emperor and establishes the Ming dynasty at Nanjing. His armies capture the Yuan capital, ending nearly a century of Mongol rule over China and forcing the Yuan court north into Mongolia."
+  },
+  {
+    year: 1369,
+    title: "Ming Establish Confucian Schools",
+    description: "One year after overthrowing Mongol rule, the Hongwu Emperor orders every county in China to establish a Confucian school. The policy helps the new Ming dynasty restore Chinese institutions and train officials after decades of rebellion."
+  },
+  {
+    year: 1370,
+    title: "Timur Establishes the Timurid Empire",
+    description: "Timur becomes supreme ruler of Transoxiana. Establishing his capital at Samarkand, he begins the Timurid Empire and the conquests that will extend from Central Asia into Persia, India, Russia and the Middle East."
+  },
+  {
+    year: 1371,
+    title: "Ming Restrict Maritime Trade",
+    description: "The Hongwu Emperor introduces the haijin, or “sea ban,” restricting private overseas commerce to combat piracy and enforce the imperial tribute system."
+  },
+  {
+    year: 1372,
+    title: "Anglo-Portuguese Treaty of Tagilde",
+    description: "King Ferdinand I of Portugal concludes the Treaty of Tagilde with representatives of England’s John of Gaunt. Formalized by another treaty in 1373, it begins the world’s oldest continuously operating diplomatic alliance."
+  },
+  {
+    year: 1373,
+    title: "England and Portugal Forge Their Enduring Alliance",
+    description: "King Edward III of England and King Ferdinand I and Queen Leonor of Portugal sign the Treaty of London, promising perpetual friendship and mutual assistance. Building on the 1372 Treaty of Tagilde, it establishes the alliance generally regarded as the world’s oldest still in force."
+  },
+  {
+    year: 1374,
+    title: "Europe’s Great Dancing Mania Begins",
+    description: "Hundreds of people begin dancing uncontrollably in Aachen, continuing until they collapse from exhaustion. The mysterious “dancing plague” spreads along the Rhine into present-day Belgium, France, Luxembourg and the Netherlands; its cause remains unknown."
+  },
+  {
+    year: 1375,
+    title: "Florence Rebels Against the Pope",
+    description: "Florence organizes numerous cities against Pope Gregory XI, beginning the War of the Eight Saints. Its name refers to eight Florentine officials who directed the struggle, which helps persuade Gregory to return the papacy from Avignon to Rome in 1377."
+  },
+  {
+    year: 1376,
+    title: "Pope Urged to come Back to Rome",
+    description: "Italian mystic Catherine of Siena travels to Avignon, where she personally urges Pope Gregory XI to reform the Church, make peace with Florence and restore the papacy to Rome."
+  },
+  {
+    year: 1377,
+    title: "Papacy Returns Permanently to Rome",
+    description: "Pope Gregory XI enters Rome on 17 January, ending nearly seven decades of papal residence in Avignon and permanently restoring Rome as the pope’s principal seat."
+  },
+  {
+    year: 1378,
+    title: "Two Rival Popes Divide Western Christianity",
+    description: "After Gregory XI dies, the cardinals elect Urban VI in Rome but soon reject him and elect Clement VII, who establishes a rival court at Avignon. The Western Schism divides Catholic Europe between competing popes until 1417."
+  },
+  {
+    year: 1379,
+    title: "Genoa Nearly Conquers Venice",
+    description: "Genoese forces defeat Venice’s fleet and capture Chioggia at the southern edge of the Venetian Lagoon, bringing Venice close to collapse."
+  },
+  {
+    year: 1380,
+    title: "Genoese Fleet Starved",
+    description: "The Genoese find themselves blockaded inside the lagoon. Starving and unable to escape, their forces surrender."
+  },
+  {
+    year: 1381,
+    title: "Venice and Genoa Make Peace",
+    description: "The Treaty of Turin ends the War of Chioggia, preserving Venice after its near-defeat by Genoa."
+  },
+  {
+    year: 1382,
+    title: "Ming Conquer Yunnan",
+    description: "Ming armies conquer Yuan-held Yunnan, extending the dynasty’s rule into southwestern China."
+  },
+  {
+    year: 1383,
+    title: "Portugal’s Succession Crisis Begins",
+    description: "King Ferdinand dies without a son, triggering Portugal’s succession crisis and John of Aviz’s revolt."
+  },
+  {
+    year: 1384,
+    title: "Plague Saves Lisbon from Castile",
+    description: "Plague forces Castile to abandon Lisbon’s siege, preserving Portuguese resistance during the succession crisis."
+  },
+  {
+    year: 1385,
+    title: "Swiss-Habsburg War Begins",
+    description: "Swiss towns attack Habsburg strongholds, beginning the Sempach War that culminates in their decisive 1386 victory."
+  },
+  {
+    year: 1386,
+    title: "Swiss Confederates Triumph at Sempach",
+    description: "Swiss Confederates defeat Habsburg forces at Sempach, killing Duke Leopold III and weakening Austrian power."
+  },
+  {
+    year: 1387,
+    title: "Glarus Declares Independence",
+    description: "Glarus held its first documented Landsgemeinde and adopted its first Landessatzung. Its independence was then militarily secured at Näfels in 1388."
+  },
+  {
+    year: 1388,
+    title: "Glarus Triumphs at Näfels",
+    description: "Outnumbered Glarus and Confederate allies defeat Habsburgs at Näfels, securing independence still commemorated by an annual pilgrimage"
+  },
+  {
+    year: 1389,
+    title: "Swiss-Habsburg War Ends",
+    description: "A Swiss–Habsburg truce confirms Confederate wartime conquests, concluding the Sempach War after Näfels."
+  },
+  {
+    year: 1390,
+    title: "Byzantium Loses Its Last Anatolian City",
+    description: "Ottomans capture Philadelphia, Byzantium’s last Anatolian city, forcing rival princes Manuel and John to assist them militarily."
+  },
+  {
+    year: 1391,
+    title: "Timur Defeats the Golden Horde",
+    description: "Timur defeats Tokhtamysh’s Golden Horde at the Kondurcha River, temporarily weakening his former ally’s regional political power."
+  },
+  {
+    year: 1392,
+    title: "League of Bologna Resists Milan",
+    description: "Florence forms the League of Bologna with six Italian states to resist Gian Galeazzo Visconti’s Milanese expansion. The alliance included Florence, Bologna, Padua, Ferrara, Imola, Faenza and Ravenna"
+  },
+  {
+    year: 1393,
+    title: "Sempacherbrief Unites the Eight Cantons",
+    description: "The Sempacherbrief unites all eight Confederate members, regulates warfare and recognizes Glarus as an equal Confederate partner."
+  },
+  {
+    year: 1394,
+    title: "Twenty Years’ Peace Secures Swiss Gains",
+    description: "The Confederates and Habsburg Austria extend their truce for twenty years, confirming Swiss territorial gains after Sempach."
+  },
+  {
+    year: 1395,
+    title: "Grey League Is Founded",
+    description: "Regional nobles and valley communities establish the Grey League, which later helps form Switzerland’s canton of Graubünden."
+  },
+  {
+    year: 1396,
+    title: "Crusade of Nicopolis Is Crushed",
+    description: "Ottomans defeat a multinational crusading army at Nicopolis, decisively strengthening Sultan Bayezid I’s dominance across the Balkans."
+  },
+  {
+    year: 1397,
+    title: "Medici Bank Is Founded",
+    description: "Giovanni di Bicci de’ Medici establishes the Medici Bank in Florence, financing his family’s later political ascent."
+  },
+  {
+    year: 1398,
+    title: "Timur Sacks Delhi",
+    description: "Timur defeats the Delhi Sultanate, sacks its capital and massacres inhabitants, devastating northern India for generations afterward."
+  },
+  {
+    year: 1399,
+    title: "Timur Begins His Seven-Year Campaign",
+    description: "Returning from India, Timur launches his seven-year campaign westward, devastating Georgia before attacking Syria and the Ottomans."
+  },
+  {
+    year: 1400,
+    title: "Timur Sacks Aleppo",
+    description: "Timur defeats the Mamluk army at Aleppo, sacks the city and advances toward Damascus before year’s end."
   }
 ];
