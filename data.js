@@ -1391,12 +1391,12 @@ const YEAR_EVENTS = [
   },
   {
     year: 1268,
-    title: "Mongs Besiege Xiangyang",
+    title: "Kublai Besiege Xiangyang",
     description: "Mongol forces begin the prolonged siege of Xiangyang, a crucial campaign in Kublai Khan’s conquest of the Southern Song."
   },
   {
     year: 1269,
-    title: "Mongol Imperial Script",
+    title: "Kublai Introduces Imperial Script",
     description: "Kublai Khan officially introduces Phagpa’s script, designed to write the many languages governed across his expanding empire."
   },
   {
@@ -1411,7 +1411,7 @@ const YEAR_EVENTS = [
   },
   {
     year: 1272,
-    title: "Ninth Crusade Ends",
+    title: "Ninth Crusade Ends with Truce",
     description: "Prince Edward secured a ten-year truce with Mamluk sultan Baibars, leaving Acre as last stronghold and ending the final major medieval crusade to the Holy Land."
   },
   {
@@ -1451,7 +1451,7 @@ const YEAR_EVENTS = [
   },
   {
     year: 1280,
-    title: "Second Japan Invasion Planned",
+    title: "Plan for Second Japan Invasion",
     description: "Kublai Khan ordered preparations for a second, far larger Mongol invasion of Japan, launched the following year."
   },
   {
@@ -1936,7 +1936,7 @@ const YEAR_EVENTS = [
   },
   {
     year: 1373,
-    title: "England and Portugal Forge Their Enduring Alliance",
+    title: "England and Portugal Forge Enduring Alliance",
     description: "King Edward III of England and King Ferdinand I and Queen Leonor of Portugal sign the Treaty of London, promising perpetual friendship and mutual assistance. Building on the 1372 Treaty of Tagilde, it establishes the alliance generally regarded as the world’s oldest still in force."
   },
   {
