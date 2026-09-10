@@ -2073,5 +2073,570 @@ const YEAR_EVENTS = [
     year: 1400,
     title: "Timur Sacks Aleppo",
     description: "Timur defeats the Mamluk army at Aleppo, sacks the city and advances toward Damascus before year’s end."
+  },
+  {
+    year: 1401,
+    title: "Timur Sacks Damascus",
+    description: "Timur captured and devastated Damascus, massacring inhabitants and deporting celebrated artisans to his capital, Samarkand."
+  },
+  {
+    year: 1401,
+    title: "Florence’s Bronze-Door Contest",
+    description: "Florence’s Baptistery competition pitted Ghiberti against Brunelleschi, launching two defining careers of the Renaissance."
+  },
+  {
+    year: 1402,
+    title: "Timur wins Battle of Ankara",
+    description: "Timur defeated and captured Ottoman Sultan Bayezid, plunging the Ottoman realm into an eleven-year civil war."
+  },
+  {
+    year: 1403,
+    title: "Timur’s Final Georgian Invasion",
+    description: "Timur captured Birtvisi and devastated Georgia, forcing George VII to accept tribute while retaining Christian rule"
+  },
+  {
+    year: 1404,
+    title: "Ming–Japanese Trade Formalized",
+    description: "The Ming recognized Ashikaga Yoshimitsu as “King of Japan,” formalizing tributary trade between China and Japan."
+  },
+  {
+    year: 1405,
+    title: "Death of Timur",
+    description: "Timur died while marching against Ming China, triggering succession struggles and fragmentation throughout his vast empire.Zheng He’s First Voyage: Zheng He departed with an enormous Ming fleet, beginning seven expeditions across the Indian Ocean."
+  },
+  {
+    year: 1406,
+    title: "Ming Begin Forbidden City Construction",
+    description: "Construction began on Beijing’s Forbidden City, China’s imperial and ceremonial center for the following five centuries."
+  },
+  {
+    year: 1407,
+    title: "Zheng He Defeats the Pirate Fleet",
+    description: "Returning from India, Zheng He defeated Chen Zuyi’s pirate fleet near Palembang and captured its leader."
+  },
+  {
+    year: 1407,
+    title: "Ming Conquers Vietnam",
+    description: "Ming forces conquered Đại Ngu and annexed it as Jiaozhi, beginning two decades of Chinese occupation."
+  },
+  {
+    year: 1408,
+    title: "Yongle Encyclopedia Completed",
+    description: "Ming scholars completed the Yongle Encyclopedia, an unprecedented handwritten compilation of Chinese knowledge spanning 11,095 volumes. The world’s largest general encyclopedia for nearly six centuries."
+  },
+  {
+    year: 1409,
+    title: "Council of Pisa creates Three Popes",
+    description: "The Council of Pisa tried ending the Western Schism by electing Alexander V, creating three popes instead."
+  },
+  {
+    year: 1410,
+    title: "Battle of Grunwald",
+    description: "Polish–Lithuanian forces crushed the Teutonic Order, permanently shifting Central Europe’s balance of power."
+  },
+  {
+    year: 1411,
+    title: "Treaty of Ayllón",
+    description: "Portugal and Castile made peace, enabling Portugal’s turn toward North African conquest and eventual overseas exploration."
+  },
+  {
+    year: 1412,
+    title: "Medici Become Papal Bankers",
+    description: "John XXIII made the Medici Bank his papal fiscal agent, greatly accelerating the Florentine family’s rise."
+  },
+  {
+    year: 1413,
+    title: "Ottoman Empire Reunified",
+    description: "Mehmed I defeated his brother Musa at Çamurlu, ending the Ottoman Interregnum and reunifying the empire."
+  },
+  {
+    year: 1413,
+    title: "Zheng He’s Fourth Voyage",
+    description: "Zheng He departed on his fourth voyage, extending Ming maritime diplomacy into the Persian Gulf. The fleet included 63 ships of upt to 80m long."
+  },
+  {
+    year: 1414,
+    title: "Council of Constance Opens",
+    description: "Church leaders assembled to end the Western Schism, reform the Church and confront Jan Hus, and the emerging Hussite movement"
+  },
+  {
+    year: 1415,
+    title: "Portugal Conquers Ceuta",
+    description: "Portugal captured Ceuta in North Africa, establishing the first foothold of its emerging overseas empire."
+  },
+  {
+    year: 1415,
+    title: "Battle of Agincourt",
+    description: "Henry V’s outnumbered army crushed France at Agincourt, restoring English dominance during the Hundred Years’ War."
+  },
+  {
+    year: 1416,
+    title: "Battle of Gallipoli",
+    description: "Venice destroyed an Ottoman fleet off Gallipoli, confirming Venetian naval supremacy across the fifteenth-century Aegean."
+  },
+  {
+    year: 1417,
+    title: "Council of Constance Creates One Pope",
+    description: "The Council of Constance elected Martin V, ending nearly forty years of rival papacies in Western Christianity."
+  },
+  {
+    year: 1418,
+    title: "Portuguese Reach Porto Santo",
+    description: "João Gonçalves Zarco and Tristão Vaz sighted Porto Santo, launching Portugal’s systematic exploration of Madeira."
+  },
+  {
+    year: 1419,
+    title: "Portuguese Reach Madeira",
+    description: "Portuguese navigators reached Madeira, extending Atlantic exploration beyond Porto Santo and preparing permanent colonization."
+  },
+  {
+    year: 1420,
+    title: "Prince Henry Leads Order of Christ",
+    description: "Prince Henry became the Order’s administrator, gaining resources later used for Portuguese maritime expansion."
+  },
+  {
+    year: 1421,
+    title: "Ming Government Moves to Beijing",
+    description: "Yongle transferred the imperial administration from Nanjing, establishing Beijing as China’s enduring capital."
+  },
+  {
+    year: 1422,
+    title: "First Ottoman Siege of Constantinople",
+    description: "Murad II besieged Constantinople, but rebellion forced his withdrawal, leaving Byzantium temporarily secure."
+  },
+  {
+    year: 1422,
+    title: "Swiss lose Battle of Arbedo",
+    description: "Milanese forces defeated Swiss Confederates near, recovering southern Alpine territories and halting expansion beyond the Gotthard."
+  },
+  {
+    year: 1423,
+    title: "Venice Takes Thessalonica",
+    description: "Byzantium transferred Thessalonica to Venice, whose occupation provoked a prolonged struggle against the Ottoman Empire."
+  },
+  {
+    year: 1424,
+    title: "Ghiberti Completes the North Doors",
+    description: "After two decades, Ghiberti completed twenty-eight bronze panels depicting Christ’s life for the Florence Baptistery."
+  },
+  {
+    year: 1425,
+    title: "Madeira’s Colonization Begins",
+    description: "Portugal organized Madeira’s permanent settlement, developing an Atlantic colony eventually dominated by sugar production."
+  },
+  {
+    year: 1426,
+    title: "First Capitulate of Milan",
+    description: "Swiss cantons relinquished their southern conquests after Arbedo but retained customs exemptions for merchants travelling to Milan."
+  },
+  {
+    year: 1427,
+    title: "Portuguese Sight the Azores",
+    description: "Diogo de Silves is traditionally credited with sighting the Azores during a Portuguese Atlantic voyage."
+  },
+  {
+    year: 1428,
+    title: "Siege of Orléans Begins",
+    description: "Anglo-Burgundian forces besieged the strategic Loire city, threatening the survival of Charles VII’s cause."
+  },
+  {
+    year: 1429,
+    title: "Siege of Orléans Lifted",
+    description: "Joan of Arc inspired French forces to break the English siege, reversing the Hundred Years’ War’s momentum."
+  },
+  {
+    year: 1430,
+    title: "Ottoman Conquest of Thessalonica",
+    description: "Murad II captured Venice-held Thessalonica, consolidating Ottoman control of Macedonia and the northern Aegean."
+  },
+  {
+    year: 1431,
+    title: "Joan of Arc Executed",
+    description: "A pro-English church court condemned Joan for heresy, burning the nineteen-year-old at Rouen."
+  },
+  {
+    year: 1432,
+    title: "Santa Maria Reached",
+    description: "Gonçalo Velho is traditionally credited with reaching Santa Maria, advancing Portugal’s exploration of the Azores."
+  },
+  {
+    year: 1433,
+    title: "Zheng He’s Final Voyage Ends",
+    description: "His treasure fleet returned to China, concluding three decades of unprecedented Ming expeditions across the Indian Ocean."
+  },
+  {
+    year: 1434,
+    title: "Cape Bojador Rounded",
+    description: "Gil Eanes passed the feared cape for Prince Henry, enabling sustained Portuguese exploration along western Africa."
+  },
+  {
+    year: 1435,
+    title: "Henry Advances Atlantic Exploration",
+    description: "Prince Henry dispatched Gil Eanes and Afonso Baldaia fifty leagues beyond Cape Bojador."
+  },
+  {
+    year: 1436,
+    title: "Henry Sends Baldaia South",
+    description: "Prince Henry commissioned Baldaia to explore beyond Cape Bojador, reaching Río de Oro in modern Western Sahara."
+  },
+  {
+    year: 1436,
+    title: "Brunelleschi’s Dome Completed",
+    description: "Florence completed its vast self-supporting cathedral dome, transforming Renaissance architecture and engineering."
+  },
+  {
+    year: 1437,
+    title: "Ulugh Beg’s Star Catalogue",
+    description: "Ulugh Beg’s Samarkand astronomers recorded positions for 1,018 stars, creating the era’s most accurate stellar catalogue."
+  },
+  {
+    year: 1438,
+    title: "Pachacuti Transforms the Inca State",
+    description: "Traditional chronology dates Pachacuti’s Chanca victory and transformation of Cusco into the expanding Inca Empire."
+  },
+  {
+    year: 1439,
+    title: "Gutenberg’s Secret Experiments Revealed",
+    description: "A Strasbourg lawsuit documented Gutenberg’s press, metals, and moulds, suggesting early experiments with movable-type printing."
+  },
+  {
+    year: 1440,
+    title: "Gutenberg Develops European Printing",
+    description: "Around 1440, Gutenberg established reusable metal type and press technology, conventionally beginning Europe’s printing revolution."
+  },
+  {
+    year: 1441,
+    title: "Portuguese Reach Cape Branco",
+    description: "Prince Henry’s captains reached modern Mauritania and seized captives, linking exploration to Portugal’s expanding slave trade."
+  },
+  {
+    year: 1442,
+    title: "Zürich Allies with the Habsburgs",
+    description: "Zürich sought Habsburg support against Schwyz and Glarus over the Toggenburg inheritance and strategic Alpine trade routes."
+  },
+  {
+    year: 1443,
+    title: "Battle of St. Jakob an der Sihl",
+    description: "Confederates defeated Zürich outside its walls; Mayor Rudolf Stüssi died defending the retreat across the Sihl."
+  },
+  {
+    year: 1444,
+    title: "Ottomans win Battle of Varna",
+    description: "Murad II crushed the crusading army; King Władysław III died, securing Ottoman dominance throughout the Balkans."
+  },
+  {
+    year: 1445,
+    title: "Naval Battle in Old Zurich War",
+    description: "Zürich’s twelve-ship fleet defeated Schwyz’s larger force on Lake Zürich, the Old Zurich War’s greatest naval engagement."
+  },
+  {
+    year: 1446,
+    title: "Battle of Ragaz",
+    description: "Confederates defeated a larger Habsburg army near Ragaz, ending major combat in the Old Zürich War."
+  },
+  {
+    year: 1447,
+    title: "New Humanist Pope",
+    description: "Humanist Nicholas V became pope, transforming Rome into a Renaissance centre and laying the Vatican Library’s foundations."
+  },
+  {
+    year: 1448,
+    title: "Arguin Fort Construction Begins",
+    description: "Around 1448, Henry the Navigator ordered Portugal’s first overseas fort, supporting trade in gum and enslaved people."
+  },
+  {
+    year: 1449,
+    title: "Last Byzantine Emperor Crowned",
+    description: "Constantine XI was crowned Byzantine emperor at Mistra, becoming the empire’s final ruler before Constantinople’s fall."
+  },
+  {
+    year: 1450,
+    title: "Peace of Einsiedeln",
+    description: "Zürich reconciled with the Confederates, dissolved its Habsburg alliance, and relinquished claims to disputed Toggenburg territories."
+  },
+  {
+    year: 1451,
+    title: "Mehmed II Returns as Sultan",
+    description: "After Murad II’s death, nineteen-year-old Mehmed regained the Ottoman throne and began preparing Constantinople’s conquest."
+  },
+  {
+    year: 1452,
+    title: "Ghiberti Completes the Gates of Paradise",
+    description: "After twenty-seven years, Ghiberti completed ten gilded bronze panels whose perspective and naturalism transformed Renaissance sculpture."
+  },
+  {
+    year: 1452,
+    title: "Dum Diversas Issued",
+    description: "Pope Nicholas V authorized Portugal to conquer non-Christians and enslave captives, providing religious justification for Atlantic expansion."
+  },
+  {
+    year: 1453,
+    title: "Fall of Constantinople",
+    description: "Mehmed II captured Constantinople, ending the Byzantine Empire and establishing the city as the Ottoman capital."
+  },
+  {
+    year: 1453,
+    title: "Hundred Years’ War Ends",
+    description: "French artillery destroyed Talbot’s English army at the Battle of Castillon, effectively ending the Hundred Years’ War."
+  },
+  {
+    year: 1454,
+    title: "Peace of Lodi",
+    description: "Milan and Venice ended the Lombard Wars, establishing a balance of power that stabilized Renaissance Italy, and a united Christian front."
+  },
+  {
+    year: 1455,
+    title: "Gutenberg Bible Appears",
+    description: "The first finished copies appeared around in Mainz, Germany, demonstrating how movable metal type could reproduce books on an unprecedented scale."
+  },
+  {
+    year: 1456,
+    title: "Siege of Belgrade",
+    description: "John Hunyadi repelled Mehmed II’s forces, halting the Ottoman advance toward Central Europe for decades."
+  },
+  {
+    year: 1457,
+    title: "Battle of Albulena",
+    description: "Skanderbeg’s concealed Albanian forces surprised and routed a much larger Ottoman army."
+  },
+  {
+    year: 1458,
+    title: "Ottomans Capture the Acropolis",
+    description: "Athens’s Florentine rulers surrendered the Acropolis, completing Mehmed II’s incorporation of the city into his empire."
+  },
+  {
+    year: 1459,
+    title: "Serbian Despotate Falls",
+    description: "Mehmed II captured Smederevo, ending the Serbian Despotate and transforming Serbia into an Ottoman province."
+  },
+  {
+    year: 1460,
+    title: "Byzantine Morea Falls",
+    description: "Mehmed II captured Mystras, extinguishing the Byzantine Despotate of Morea, medieval name for the Peloponnese in southern Greece."
+  },
+  {
+    year: 1461,
+    title: "Empire of Trebizond Falls",
+    description: "Mehmed II captured Trebizond, ending the last surviving Byzantine successor empire eight years after Constantinople’s fall."
+  },
+  {
+    year: 1462,
+    title: "Castile Captures Gibraltar",
+    description: "Castilian forces captured Gibraltar from Granada, permanently ending more than seven centuries of Muslim control."
+  },
+  {
+    year: 1463,
+    title: "Ottoman–Venetian War Begins",
+    description: "Venice declared war on the Ottomans, beginning a sixteen-year struggle over Greece and the Aegean."
+  },
+  {
+    year: 1464,
+    title: "Venice Invades the Morea",
+    description: "Venice sent Sigismondo Malatesta with a major army to recover southern Greece from the Ottomans."
+  },
+  {
+    year: 1465,
+    title: "Venice Rejects Ottoman Peace",
+    description: "Mehmed II sent peace feelers, but Venice distrusted him and continued its costly Aegean war."
+  },
+  {
+    year: 1466,
+    title: "Venice Attacks Ottoman Greece",
+    description: "Vettore Cappello captured three Aegean islands and attacked Athens, before Venice suffered defeat at Patras."
+  },
+  {
+    year: 1467,
+    title: "Ōnin War Begins",
+    description: "A shogunal succession dispute ignited civil war, devastated Kyoto and opened Japan’s Warring States period."
+  },
+  {
+    year: 1468,
+    title: "Swiss–Habsburg Waldshut War",
+    description: "Swiss forces invaded Habsburg lands and besieged Waldshut, compelling Duke Sigismund to pay an indemnity."
+  },
+  {
+    year: 1469,
+    title: "Fernão Gomes Receives African Monopoly",
+    description: "Afonso V granted Gomes exclusive Guinea trade, requiring roughly 500 kilometres of new coastal exploration annually."
+  },
+  {
+    year: 1470,
+    title: "Portuguese African Voyages Expand",
+    description: "Gomes’s captains mapped new West African coastline while seeking gold, ivory, pepper and trading communities."
+  },
+  {
+    year: 1471,
+    title: "Portuguese Reach Gold Coast and Príncipe",
+    description: "Santarém and Escobar reached modern Ghana."
+  },
+  {
+    year: 1472,
+    title: "World’s Oldest Surviving Bank Founded",
+    description: "Siena founded a public charitable lender that evolved into the world’s oldest bank still operating."
+  },
+  {
+    year: 1473,
+    title: "Charles Is Denied a Crown",
+    description: "Emperor Frederick III abandons Charles the Bold’s coronation at Trier, frustrating his dream of a Burgundian kingdom."
+  },
+  {
+    year: 1474,
+    title: "Swiss Enter Burgundian Wars",
+    description: "Bern declares war on Burgundy; Swiss-led forces defeat a Burgundian army at Héricourt, opening the Burgundian Wars."
+  },
+  {
+    year: 1475,
+    title: "Battle on the Planta",
+    description: "Valaisans and Confederate allies defeat Savoy outside Sion, securing Lower Valais and blocking Burgundy’s Italian reinforcements."
+  },
+  {
+    year: 1476,
+    title: "Grandson and Murten",
+    description: "Swiss forces defeat Charles at Grandson and Murten, seizing his treasure and shattering his military power."
+  },
+  {
+    year: 1477,
+    title: "Charles Dies at Nancy",
+    description: "Lorrainer and Swiss forces defeat Charles the Bold at Nancy, killing him and ending Burgundian power. The famous German mnemonic is: «Bei Grandson das Gut, bei Murten den Mut, bei Nancy das Blut»."
+  },
+  {
+    year: 1478,
+    title: "Spanish Inquisition Begins",
+    description: "Pope Sixtus IV authorizes the Spanish Inquisition, allowing Isabella and Ferdinand to prosecute suspected religious heresy."
+  },
+  {
+    year: 1479,
+    title: "Treaty of Alcáçovas Divides World",
+    description: "Portugal and Castile end their succession war and divide Atlantic expansion, foreshadowing the Treaty of Tordesillas."
+  },
+  {
+    year: 1479,
+    title: "Venice Accepts Ottoman Victory",
+    description: "Venice ends its sixteen-year war with Mehmed II, surrendering territories while restoring trade within the Ottoman Empire."
+  },
+  {
+    year: 1480,
+    title: "Ottomans Invade Italy",
+    description: "Ottoman forces capture Otranto in southern Italy, creating panic that Mehmed II intends to conquer Rome."
+  },
+  {
+    year: 1481,
+    title: "Treaty of Stans",
+    description: "The Treaty of Stans resolves Confederate divisions, while Fribourg and Solothurn become its ninth and tenth members."
+  },
+  {
+    year: 1482,
+    title: "Elmina Castle Built",
+    description: "Portugal builds Elmina Castle in modern-day Ghana, creating its first permanent trading fortress in sub-Saharan Africa."
+  },
+  {
+    year: 1483,
+    title: "Princes in the Tower",
+    description: "England’s young princes disappear in the Tower of London after their uncle Richard III takes the throne."
+  },
+  {
+    year: 1484,
+    title: "Portugal Rejects Columbus",
+    description: "Portugal rejects Columbus’s westward route to Asia because experts correctly judge his distance calculations far too small."
+  },
+  {
+    year: 1485,
+    title: "Tudors Win at Bosworth",
+    description: "Henry Tudor defeats and kills Richard III at Bosworth, ending Plantagenet rule and founding England’s Tudor dynasty."
+  },
+  {
+    year: 1486,
+    title: "Tudor Rose Marriage",
+    description: "Henry VII marries Elizabeth of York, uniting Lancastrian and Yorkist claims and creating the symbolic Tudor Rose."
+  },
+  {
+    year: 1486,
+    title: "Pico’s 900 Theses",
+    description: "Pico della Mirandola publishes 900 theses reconciling Christian, Jewish, Islamic, classical, and mystical philosophical traditions."
+  },
+  {
+    year: 1487,
+    title: "Final Battle of the Roses",
+    description: "Henry VII defeats Lambert Simnel’s Yorkist army at Stoke Field, traditionally ending the Wars of the Roses."
+  },
+  {
+    year: 1488,
+    title: "Dias Rounds Africa",
+    description: "Bartolomeu Dias becomes the first European to round southern Africa, proving a route toward the Indian Ocean."
+  },
+  {
+    year: 1489,
+    title: "Leonardo Studies the Skull",
+    description: "Leonardo sections a human skull, producing remarkably accurate drawings that pioneer scientific anatomical illustration."
+  },
+  {
+    year: 1490,
+    title: "Leaonardo Creates Vitruvian Man",
+    description: "Leonardo draws the Vitruvian Man, uniting human anatomy, geometry, and Renaissance ideals of proportional harmony."
+  },
+  {
+    year: 1491,
+    title: "Granada Agrees to Surrender",
+    description: "Boabdil signs Granada’s surrender terms, promising Muslims religious and legal protections before the city’s 1492 handover."
+  },
+  {
+    year: 1492,
+    title: "Granada Falls",
+    description: "Boabdil surrenders Granada to Ferdinand and Isabella, ending the last Muslim-ruled state in Iberia."
+  },
+  {
+    year: 1492,
+    title: "Columbus Reaches the Caribbean",
+    description: "After Granada, Spain sponsors Columbus, who reaches the Bahamas, Cuba, and Hispaniola with the Niña, Pinta, and Santa María."
+  },
+  {
+    year: 1493,
+    title: "Spanish Colonization Begins",
+    description: "Columbus returns with captured Taínos, then leads seventeen ships establishing permanent Spanish colonization on Hispaniola."
+  },
+  {
+    year: 1494,
+    title: "Treaty of Tordesillas",
+    description: "Spain and Portugal divide overseas claims along a meridian 370 leagues west of the Cape Verde Islands, assigning lands west to Castile and east to Portugal."
+  },
+  {
+    year: 1495,
+    title: "Syphilis Epidemic Begins",
+    description: "A devastating syphilis epidemic erupts during the Italian Wars, becoming Europe’s first clearly documented outbreak."
+  },
+  {
+    year: 1496,
+    title: "Cabot Authorized to Explore",
+    description: "Henry VII authorizes John Cabot to explore and claim Atlantic lands, preparing England’s 1497 North American voyage."
+  },
+  {
+    year: 1497,
+    title: "Cabot Reaches North America",
+    description: "John Cabot reaches North America under Henry VII’s authority, supporting England’s later territorial claims across the Atlantic."
+  },
+  {
+    year: 1498,
+    title: "Da Gama Reaches India",
+    description: "Vasco da Gama reaches Calicut after rounding Africa, opening a direct European–Asian maritime trade route."
+  },
+  {
+    year: 1498,
+    title: "The Last Supper Completed",
+    description: "Leonardo completes The Last Supper in Milan, creating a Renaissance masterpiece that begins deteriorating almost immediately."
+  },
+  {
+    year: 1499,
+    title: "Swiss Win Swabian War",
+    description: "Swiss forces defeat Maximilian at Dornach; the Treaty of Basel grants exemption from imperial courts and taxes."
+  },
+  {
+    year: 1499,
+    title: "Vespucci Explores Venezuela",
+    description: "Alonso de Ojeda and Amerigo Vespucci explore South America’s northern coast, including Venezuela and Lake Maracaibo."
+  },
+  {
+    year: 1500,
+    title: "Cabral Reaches Brazil",
+    description: "Pedro Álvares Cabral reaches present-day Brazil and claims its coast for Portugal."
   }
 ];
