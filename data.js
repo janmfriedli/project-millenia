@@ -2,7 +2,7 @@ const YEAR_EVENTS = [
   {
     year: 1000,
     title: "Leif goes Vinland",
-    description: "Norse explorer, Leif Eriksson the Lucky, was blown of course and landed on the North American continent as the first European at L’Anse aux Meadows. He called the land Vinland (Land of Wine)."
+    description: "Around 1000, according to later Icelandic sagas, Leif Erikson reached a North American land called Vinland. L’Anse aux Meadows confirms Norse activity in 1021, but cannot securely be identified as Leif’s landing."
   },
   {
     year: 1001,
@@ -11,13 +11,13 @@ const YEAR_EVENTS = [
   },
   {
     year: 1002,
-    title: "St Brice Massace",
+    title: "St. Brice Massacre",
     description: "English king Æthelred the Unready orders all Danes in England to be killed after the intensity of their Vikings raids increased; provoking Sweyn I of Denmark's invasion in 1003."
   },
   {
     year: 1003,
     title: "Sweyn I’s Invasion",
-    description: "Sweyn I of Denmark begins his first invasion of England, leading punitive expeditions in 1003 and 1004 in retaliation for the St. Brice’s Day massacre."
+    description: "Sweyn Forkbeard launches a renewed invasion of England in 1003, perhaps encouraged by the 1002 massacre and also aimed at tribute and conquest."
   },
   {
     year: 1004,
@@ -102,12 +102,12 @@ const YEAR_EVENTS = [
   {
     year: 1020,
     title: "Hawk’s Castle",
-    description: "The Habichtsburg is built in Aargau, ancestral seat from which the Habsburg dynasty later took its name."
+    description: "Around 1020–1030, Radbot and Bishop Werner built the Habichtsburg in Aargau, ancestral seat from which the Habsburg dynasty later took its name."
   },
   {
     year: 1021,
-    title: "Tale of Genji Complete",
-    description: "The Tale of Genji is complete, becoming Japan’s great court novel and the first psychological novel."
+    title: "Vikings in North America",
+    description: "Norse settlers cut timber at L’Anse aux Meadows, the earliest precisely dated European activity in the Americas."
   },
   {
     year: 1022,
@@ -122,7 +122,7 @@ const YEAR_EVENTS = [
   {
     year: 1024,
     title: "Song Paper Money",
-    description: "Song China issues standardized government jiaozi notes, helping create the world’s first major paper currency system."
+    description: "Song China issues standardized government jiaozi notes, helping create the world’s first major paper currency system. It started preparations in 1023."
   },
   {
     year: 1025,
@@ -241,7 +241,7 @@ const YEAR_EVENTS = [
   },
   {
     year: 1048,
-    title: "Shortest Pope",
+    title: "Short Pope",
     description: "Pope Damasus II dies after only twenty-three days, one of the shortest papal reigns in history."
   },
   {
@@ -311,8 +311,8 @@ const YEAR_EVENTS = [
   },
   {
     year: 1062,
-    title: "Marrakesh Founded",
-    description: "The Almoravids found Marrakesh, soon making it their capital and a lasting centre of Moroccan power."
+    title: "Henry IV Kidnapped at Kaiserswerth",
+    description: "Archbishop Anno kidnaps eleven-year-old Henry IV and seizes control of the German royal government."
   },
   {
     year: 1063,
@@ -541,8 +541,8 @@ const YEAR_EVENTS = [
   },
   {
     year: 1106,
-    title: "Song Chinese Atlas",
-    description: "Song cartographers create detailed maps and geographic records, reflecting China’s sophisticated state administration and spatial knowledge."
+    title: "Henry IV Dies Deposed",
+    description: "The emperor once kidnapped at Kaiserswerth and triumphant in Rome died deposed and excommunicated in Liège."
   },
   {
     year: 1107,
@@ -666,8 +666,8 @@ const YEAR_EVENTS = [
   },
   {
     year: 1131,
-    title: "Antioch Crisis",
-    description: "The young prince of Antioch was killed in battle, leaving the northern Crusader frontier more vulnerable to Zengi and regional Muslim powers."
+    title: "Song Victory at Heshangyuan",
+    description: "Wu Jie’s Southern Song army crushed a Jin invasion, protecting the gateway to Sichuan."
   },
   {
     year: 1132,
@@ -711,8 +711,8 @@ const YEAR_EVENTS = [
   },
   {
     year: 1140,
-    title: "Abelard Condemned",
-    description: "French thinker Peter Abelard was condemned for controversial theology, showing tensions between reason and Church authority."
+    title: "The Faithful Wives of Weinsberg",
+    description: "Women reportedly carried their husbands from a besieged castle, exploiting King Conrad III’s promise. The siege is securely dated 21 December 1140, although the celebrated episode may be legendary."
   },
   {
     year: 1141,
@@ -722,7 +722,7 @@ const YEAR_EVENTS = [
   {
     year: 1142,
     title: "Matilda Escapes",
-    description: "Stephen of England is released in prisoner-swap and Matilda retreats to Oxford Castle during the Anarchy, reportedly fleeing across snow and ice at night."
+    description: "Matilda retreats to Oxford Castle during the Anarchy, reportedly fleeing across snow and ice at night."
   },
   {
     year: 1143,
@@ -832,7 +832,7 @@ const YEAR_EVENTS = [
   {
     year: 1164,
     title: "Crusaders Invade Egypt",
-    description: "A Crusader army advanced into Egypt, beginning a brutal contest for control of the Nile."
+    description: "A Crusader army advanced into Egypt, beginning a brutal contest for control of the Nile. It started in 1163."
   },
   {
     year: 1165,
@@ -842,7 +842,7 @@ const YEAR_EVENTS = [
   {
     year: 1166,
     title: "Battles for Nile",
-    description: "Syrian forces returned to Egypt, drawing Crusader Jerusalem into a renewed struggle for Cairo and the Nile."
+    description: "Syrian forces returned to Egypt in late 1166, drawing Crusader Jerusalem into a renewed struggle for Cairo and the Nile."
   },
   {
     year: 1167,
@@ -982,7 +982,7 @@ const YEAR_EVENTS = [
   {
     year: 1189,
     title: "Acre Besieged in Third Crusade",
-    description: "Richard the Lionheart, Philip II and Frederick Barbarossa launch a campaign to recapture Jerusalem from Saladin."
+    description: "Guy of Lusignan begins the siege of Acre with Richard the Lionheart on his way."
   },
   {
     year: 1190,
@@ -1001,13 +1001,13 @@ const YEAR_EVENTS = [
   },
   {
     year: 1192,
-    title: "Shogunate Begins",
+    title: "Yoritomo Named Shogun",
     description: "Japan’s first shogunate began at Kamakura, where military rulers governed while the emperor remained symbolically important."
   },
   {
     year: 1193,
     title: "Saladin Dies",
-    description: "Saladin died in Damascus months after the Third Crusade, leaving his Ayyubid empire divided among relatives."
+    description: "Saladin died in Damascus months after the Third Crusade, leaving his Ayyubid empire divided among relatives. The Kamakura military government had operated since 1185."
   },
   {
     year: 1194,
@@ -1081,8 +1081,8 @@ const YEAR_EVENTS = [
   },
   {
     year: 1208,
-    title: "Francis Renounces",
-    description: "Francis of Assisi publicly renounces his father’s wealth, choosing poverty and beginning his radical religious path."
+    title: "Francis Embraces Poverty",
+    description: "Hearing Christ’s instructions to the apostles, Francis embraced radical poverty and began preaching around Assisi."
   },
   {
     year: 1209,
@@ -1412,7 +1412,7 @@ const YEAR_EVENTS = [
   {
     year: 1272,
     title: "Ninth Crusade Ends with Truce",
-    description: "Prince Edward secured a ten-year truce with Mamluk sultan Baibars, leaving Acre as last stronghold and ending the final major medieval crusade to the Holy Land."
+    description: "A truce ends Edward’s crusade, preserving the remaining Crusader states for a time; Acre was their principal centre, not their sole surviving stronghold."
   },
   {
     year: 1273,
@@ -1501,8 +1501,8 @@ const YEAR_EVENTS = [
   },
   {
     year: 1290,
-    title: "Habsburg Geneva",
-    description: "Geneva’s bishop granted Rudolf of Habsburg the city’s vidomnat, expanding Habsburg authority within present-day Switzerland."
+    title: "Savoy Secures Geneva’s Vidomnat",
+    description: "Geneva’s bishop formally enfeoffed Amadeus V of Savoy with the vidomnat, strengthening Savoyard authority within the city."
   },
   {
     year: 1291,
