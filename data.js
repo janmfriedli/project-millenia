@@ -2102,7 +2102,12 @@ const YEAR_EVENTS = [
   {
     year: 1405,
     title: "Death of Timur",
-    description: "Timur died while marching against Ming China, triggering succession struggles and fragmentation throughout his vast empire.Zheng He’s First Voyage: Zheng He departed with an enormous Ming fleet, beginning seven expeditions across the Indian Ocean."
+    description: "Timur died while marching against Ming China, triggering succession struggles and fragmentation throughout his vast empire."
+  },
+  {
+    year: 1405,
+    title: "Zheng He’s First Voyage",
+    description: "Zheng He departed with an enormous Ming fleet, beginning seven expeditions across the Indian Ocean."
   },
   {
     year: 1406,
@@ -2150,11 +2155,6 @@ const YEAR_EVENTS = [
     description: "Mehmed I defeated his brother Musa at Çamurlu, ending the Ottoman Interregnum and reunifying the empire."
   },
   {
-    year: 1413,
-    title: "Zheng He’s Fourth Voyage",
-    description: "Zheng He departed on his fourth voyage, extending Ming maritime diplomacy into the Persian Gulf. The fleet included 63 ships of upt to 80m long."
-  },
-  {
     year: 1414,
     title: "Council of Constance Opens",
     description: "Church leaders assembled to end the Western Schism, reform the Church and confront Jan Hus, and the emerging Hussite movement"
@@ -2163,11 +2163,6 @@ const YEAR_EVENTS = [
     year: 1415,
     title: "Portugal Conquers Ceuta",
     description: "Portugal captured Ceuta in North Africa, establishing the first foothold of its emerging overseas empire."
-  },
-  {
-    year: 1415,
-    title: "Battle of Agincourt",
-    description: "Henry V’s outnumbered army crushed France at Agincourt, restoring English dominance during the Hundred Years’ War."
   },
   {
     year: 1416,
@@ -2198,11 +2193,6 @@ const YEAR_EVENTS = [
     year: 1421,
     title: "Ming Government Moves to Beijing",
     description: "Yongle transferred the imperial administration from Nanjing, establishing Beijing as China’s enduring capital."
-  },
-  {
-    year: 1422,
-    title: "First Ottoman Siege of Constantinople",
-    description: "Murad II besieged Constantinople, but rebellion forced his withdrawal, leaving Byzantium temporarily secure."
   },
   {
     year: 1422,
@@ -2276,11 +2266,6 @@ const YEAR_EVENTS = [
   },
   {
     year: 1436,
-    title: "Henry Sends Baldaia South",
-    description: "Prince Henry commissioned Baldaia to explore beyond Cape Bojador, reaching Río de Oro in modern Western Sahara."
-  },
-  {
-    year: 1436,
     title: "Brunelleschi’s Dome Completed",
     description: "Florence completed its vast self-supporting cathedral dome, transforming Renaissance architecture and engineering."
   },
@@ -2301,13 +2286,13 @@ const YEAR_EVENTS = [
   },
   {
     year: 1440,
-    title: "Gutenberg Develops European Printing",
-    description: "Around 1440, Gutenberg established reusable metal type and press technology, conventionally beginning Europe’s printing revolution."
+    title: "Old Zürich War Begins",
+    description: "After Zürich contests the Toggenburg inheritance with Schwyz, Confederate forces invade, forcing Zürich to surrender the Höfe."
   },
   {
     year: 1441,
-    title: "Portuguese Reach Cape Branco",
-    description: "Prince Henry’s captains reached modern Mauritania and seized captives, linking exploration to Portugal’s expanding slave trade."
+    title: "Berner Spruchbrief to Arbitrate",
+    description: "Bern’s arbitration returns Grüningen to Zürich while confirming local rights, temporarily stabilizing the conflict after Zürich’s defeat."
   },
   {
     year: 1442,
@@ -2321,33 +2306,33 @@ const YEAR_EVENTS = [
   },
   {
     year: 1444,
-    title: "Ottomans win Battle of Varna",
-    description: "Murad II crushed the crusading army; King Władysław III died, securing Ottoman dominance throughout the Balkans."
+    title: "Murder of Greifensee",
+    description: "After capturing Greifensee, Confederate troops execute nearly its entire Zürich garrison, remembered as the Murder of Greifensee."
   },
   {
     year: 1445,
-    title: "Naval Battle in Old Zurich War",
-    description: "Zürich’s twelve-ship fleet defeated Schwyz’s larger force on Lake Zürich, the Old Zurich War’s greatest naval engagement."
+    title: "Battle of Wollerau",
+    description: "Zürich’s twelve-ship fleet battles Schwyz’s larger force on Lake Zürich, the Old Zurich War’s greatest naval engagement."
   },
   {
     year: 1446,
-    title: "Battle of Ragaz",
-    description: "Confederates defeated a larger Habsburg army near Ragaz, ending major combat in the Old Zürich War."
+    title: "Ragaz Victory and Constance Truce",
+    description: "Confederates defeat Habsburg forces at Ragaz; exhausted belligerents sign the Constance truce, ending six years of warfare."
   },
   {
     year: 1447,
-    title: "New Humanist Pope",
-    description: "Humanist Nicholas V became pope, transforming Rome into a Renaissance centre and laying the Vatican Library’s foundations."
+    title: "Arbitration Reopens Peace Talks",
+    description: "Augsburg’s mayor rules Zürich must accept Confederate arbitration; negotiations at Einsiedeln focus on war guilt and reparations"
   },
   {
     year: 1448,
-    title: "Arguin Fort Construction Begins",
-    description: "Around 1448, Henry the Navigator ordered Portugal’s first overseas fort, supporting trade in gum and enslaved people."
+    title: "Peace Talks Remain Stalled",
+    description: "The Constance truce holds, but disputes over war guilt and compensation prevent Zürich and Confederates from reaching peace."
   },
   {
     year: 1449,
-    title: "Last Byzantine Emperor Crowned",
-    description: "Constantine XI was crowned Byzantine emperor at Mistra, becoming the empire’s final ruler before Constantinople’s fall."
+    title: "Bern Revives Peace Negotiations",
+    description: "Bern mediates renewed negotiations as Zürich grows estranged from Habsburg, preparing the compromise reached the following year."
   },
   {
     year: 1450,
