@@ -1436,8 +1436,8 @@ const YEAR_EVENTS = [
   },
   {
     year: 1277,
-    title: "Mongols Face Elephants",
-    description: "Mongol archers defeated Burma’s elephant army at Ngasaunggyan, beginning Kublai Khan’s prolonged invasions of the Kingdom."
+    title: "Song Court Flees South",
+    description: "Emperor Duanzong and Song loyalists fled further south along China’s coast after a powerful official in Quanzhou sided with the Mongols."
   },
   {
     year: 1278,
@@ -1671,7 +1671,7 @@ const YEAR_EVENTS = [
   },
   {
     year: 1322,
-    title: "English Rebellion Crushed",
+    title: "English Noblels Rebellion Crushed",
     description: "Edward II defeated rebellious nobles at Boroughbridge and executed their leader, Thomas of Lancaster, who later inspired a popular saintly cult."
   },
   {
@@ -1716,7 +1716,7 @@ const YEAR_EVENTS = [
   },
   {
     year: 1331,
-    title: "Genkō War against Shogunate",
+    title: "War against Kamakura Shogunate",
     description: "Emperor Go-Daigo rebels against Japan’s Kamakura shogunate, beginning the Genkō War. His resistance eventually topples the shogunate and briefly restores imperial rule in 1333."
   },
   {
@@ -1731,12 +1731,12 @@ const YEAR_EVENTS = [
   },
   {
     year: 1334,
-    title: "Christian Fleet Defeats Turkish Beylik",
-    description: "Near Adramyttion, a naval league led by Venice and the Knights Hospitaller defeats the fleet of the Turkish Beylik of Karasi. The victory temporarily restricts Turkish naval raids across the Aegean Sea."
+    title: "Kenmu Restoration Faces Discontent",
+    description: "Emperor Go-Daigo sought to consolidate direct imperial rule, but disputes over land and inadequate rewards for many samurai weakened support for the Kenmu Restoration."
   },
   {
     year: 1335,
-    title: "Start of Kenmu Restoration Collapse",
+    title: "Kenmu Restoration Collapses",
     description: "Ashikaga Takauji defeats Hōjō loyalists without imperial authorization. He remains in Kamakura and rebels against Emperor Go-Daigo, beginning the collapse of the Kenmu Restoration"
   },
   {
@@ -2366,7 +2366,7 @@ const YEAR_EVENTS = [
   },
   {
     year: 1454,
-    title: "Peace of Lodi",
+    title: "Lombard Wars Ends",
     description: "Milan and Venice ended the Lombard Wars, establishing a balance of power that stabilized Renaissance Italy, and a united Christian front."
   },
   {
@@ -2391,12 +2391,12 @@ const YEAR_EVENTS = [
   },
   {
     year: 1459,
-    title: "Serbian Despotate Falls",
+    title: "Serbia Falls to Ottomans",
     description: "Mehmed II captured Smederevo, ending the Serbian Despotate and transforming Serbia into an Ottoman province."
   },
   {
     year: 1460,
-    title: "Byzantine Morea Falls",
+    title: "Southern Greece (Morea) Falls",
     description: "Mehmed II captured Mystras, extinguishing the Byzantine Despotate of Morea, medieval name for the Peloponnese in southern Greece."
   },
   {
@@ -2416,7 +2416,7 @@ const YEAR_EVENTS = [
   },
   {
     year: 1464,
-    title: "Venice Invades the Morea",
+    title: "Venice Invades the Southern Greece",
     description: "Venice sent Sigismondo Malatesta with a major army to recover southern Greece from the Ottomans."
   },
   {
@@ -2446,13 +2446,13 @@ const YEAR_EVENTS = [
   },
   {
     year: 1470,
-    title: "Portuguese African Voyages Expand",
+    title: "Fernão Gomes Expand African Voyages",
     description: "Gomes’s captains mapped new West African coastline while seeking gold, ivory, pepper and trading communities."
   },
   {
     year: 1471,
-    title: "Portuguese Reach Gold Coast and Príncipe",
-    description: "Santarém and Escobar reached modern Ghana."
+    title: "Portuguese Reach Ghana",
+    description: "Santarém and Escobar reached Gold Coast and Príncipe in modern-day Ghana."
   },
   {
     year: 1472,
